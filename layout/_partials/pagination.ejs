@@ -1,0 +1,20 @@
+
+<nav id="pagination">
+  <% 
+    var preLink = page.prev_link || ((page.prev && page.prev.path) ? page.prev.path : null),
+        nextLink = page.next_link || ((page.next && page.next.path) ? page.next.path : null);
+  %>
+  <% if (preLink) { %>
+    <a href="<%=url_for(preLink)%>" class="prev"><i class="fa fa-angle-left"></i></a>
+  <% } %>
+
+  <% if (typeof page.current === 'number' && typeof page.total === 'number') { %>
+    <span class="page-number">
+      <%=page.current%> / <%=page.total%>  
+    </span>
+  <% } %>
+
+  <% if (nextLink) { %>
+    <a href="<%=url_for(nextLink)%>" class="next"><i class="fa fa-angle-right"></i></a>
+  <% } %>
+</nav>

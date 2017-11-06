@@ -1,0 +1,213 @@
+body,html {
+  width: 100%;
+  height: 100%;
+}
+a {
+  padding-bottom: 3px;
+  color: $color-1;
+  border-bottom: 2px solid transparent;
+  transition: border .2s;
+  &[href]:hover {
+    color: $colourful-1;
+    border-color: $colourful-1;
+  }
+}
+body {
+  background: url(../images/bg_main.png) no-repeat right top $te-view-bgcolor;
+}
+.hide, body .hide{
+  display: none;
+}
+.te-wrap{
+  margin: 0 auto;
+}
+.te-body-home {
+  background-color:$te-view-bgcolor-1;
+  .te-wrap{
+    @include display-flex;
+    width: $te-view-home;
+    min-height: 100%;
+    .te-left{
+      width: 100%;
+      background: url(../images/bg.png) no-repeat left bottom #fff;
+      background-size: 200px auto;
+      border-right: 1px solid #eee;
+      border-left: 1px solid #eee;
+    }
+    .te-right{
+      display: none;
+      max-width: $te-view-maxwidth;
+    }
+
+  }
+}
+.toc-show,a.go-top,a.go-top:hover{
+  display: block;
+  z-index: 100;
+  cursor: pointer;
+  position: fixed;
+  right: $te-view-tocwidth;
+  padding:0;
+  margin:0 -0.3rem 0 0;
+  bottom: 3rem;
+  width: 20px;
+  border:none;
+  background: $colourful-1;
+  text-align: center;
+  color: #fff;
+}
+a.go-top,a.go-top:hover{
+  bottom: 1rem;
+}
+.te-body-default{
+  overflow: auto;
+  min-height: 100%;
+  height:auto;
+  .te-wrap{
+    width: $te-view-maxwidth;
+    .te-right{
+      margin-top: 3rem;
+    }
+    #menu-inner{
+      .te-menu-item{
+        margin:0 10px;
+        display: inline-block;
+        &:first-child a{
+          margin-bottom: 0;
+        }
+      }
+    }
+    #post{
+      h1.post-title{
+        padding-bottom:1rem;
+        border-bottom: 4px double #eee;
+        font-size: 1.5em;
+        text-align: center;
+        &:before{
+          display:none;
+        }
+      }
+      .te-post-outer{
+      }
+      .te-post-inner{
+        @include flex;
+      }
+      .post-toc{
+        @include transition(opacity 1s);
+        display: none;
+        position: fixed;
+        right:0;
+        top: 0;
+        bottom: 0;
+        margin-right: 1rem;
+        padding: 1rem 0;
+        width: $te-view-tocwidth;
+        border-left:1px solid #eee;
+        background: rgba(255,255,255,.8);
+        .toc-outer{
+          @include display-flex;
+          @include flex-direction(column);
+          width: 100%;
+          height: 100%;
+          font-size: .8rem;
+          .top-title{
+            padding:1rem 0;
+            text-align: center;
+            font-size: 1.2rem;
+          }
+          .toc{
+            @include flex(1);
+            padding: 0 1rem;
+            overflow-y: auto;
+            line-height: 1.5rem;
+            list-style: none;
+            .toc-child{
+              padding-left:1rem;
+            }
+            li{
+              list-style: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .te-wrap-post{
+    position: absolute;
+    right: $te-view-tocwidth;
+    left: 0;
+    padding: 0 5rem;
+    width: auto;
+    .toc-show{
+      .fa:before{
+        content: "\f00d";
+      }
+    }
+    #post .post-toc{
+      display: block;
+    }
+  }
+}
+
+#menu-inner{
+  text-align: center;
+  .te-menu-item{
+    a{
+      display: inline-block;
+    }
+    &:first-child{
+      a{
+        margin: 0 auto 30px;
+        padding-bottom: 0;
+        padding-top: 3rem;
+        display: block;
+        width: $te-view-fontsize-big-1 * 2;
+        @include linear-gradient(left,transparent 50% ,$colourful-2 50%,$colourful-2 75%,transparent 75%);
+        border-bottom-width: 4px;
+        border-radius: 3px;
+        line-height: 1;
+        span{
+          display: inline-block;
+          @include linear-gradient(left,$colourful-1 50% ,#fff 50%,#fff 75%,$colourful-2 75%);
+          font-size: $te-view-fontsize-big-1;
+          font-weight: bold;
+          -webkit-background-clip: text;-webkit-text-fill-color: transparent;
+        }
+        &:hover{
+          @include linear-gradient(left,$colourful-1 25%,transparent 25%);
+          span{
+            @include linear-gradient(left,#fff 25%, $colourful-1 25% ,$colourful-2 50%);
+          }
+        }
+      }
+    }
+  }
+}
+#pagination{
+  position: relative;
+  margin: 10px 0;
+  text-align: center;
+  line-height: 50px;
+  .next,.prev{
+    padding:0 10px;
+    display: block;
+    position: absolute;
+    top:0;
+    font-size: 2rem;
+  }
+  .prev {
+    left:0;
+  }
+  .next {
+    right: 0;
+  }
+}
+.recent-post-item{
+  padding:1rem 0;
+  border-bottom:1px solid #e6e6e6;
+  background: rgba(255,255,255,.8);
+  time{
+    display: inline-block;
+    width: 130px;
+  }
+}

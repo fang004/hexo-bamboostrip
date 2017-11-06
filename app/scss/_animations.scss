@@ -1,0 +1,23 @@
+/*
+  Animations
+*/
+// Revolve
+// @include animation(revolving 1.5s infinite linear);
+// -------------------------------
+@keyframes revolving {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes revolving {
+  from {
+    -webkit-transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+

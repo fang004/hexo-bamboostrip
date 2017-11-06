@@ -1,0 +1,1983 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'hexo-related-popular-posts',
+1 verbose cli   '--save',
+1 verbose cli   '--registry=https://npm.taobao.org' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData hexo-related-popular-posts
+8 silly fetchNamedPackageData hexo-related-popular-posts
+9 silly mapToRegistry name hexo-related-popular-posts
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://npm.taobao.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'hexo-related-popular-posts',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'hexo-related-popular-posts',
+12 silly mapToRegistry   name: 'hexo-related-popular-posts',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://npm.taobao.org/hexo-related-popular-posts
+14 verbose request uri https://npm.taobao.org/hexo-related-popular-posts
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:23:17
+17 verbose request id 3f58d5b2b0cd3824
+18 http request GET https://npm.taobao.org/hexo-related-popular-posts
+19 http 200 https://npm.taobao.org/hexo-related-popular-posts
+20 verbose bad json <!DOCTYPE html>
+20 verbose bad json <html>
+20 verbose bad json   <head>
+20 verbose bad json     <meta charset="utf-8">
+20 verbose bad json     <title>Package - hexo-related-popular-posts</title>
+20 verbose bad json     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+20 verbose bad json     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+20 verbose bad json     <meta name="apple-mobile-web-app-capable" content="yes" />
+20 verbose bad json     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+20 verbose bad json     <link rel="shortcut icon" href="/favicon.png">
+20 verbose bad json     <!-- Ant design -->
+20 verbose bad json     <link href="/css/antd-0.9.1.min.css" rel="stylesheet" media="screen">
+20 verbose bad json     <link href="/css/main.css" rel="stylesheet" media="screen">
+20 verbose bad json     <link href="/css/yue.css" rel="stylesheet" media="screen">
+20 verbose bad json     <link href="/css/github.css" rel="stylesheet" media="screen">
+20 verbose bad json     <link href="/css/github-markdown.css" rel="stylesheet" media="screen">
+20 verbose bad json     <!-- JavaScript plugins (requires jQuery) -->
+20 verbose bad json     <script src="//dn-staticfile.qbox.me/jquery/2.0.3/jquery.min.js"></script>
+20 verbose bad json     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CNPM" />
+20 verbose bad json     <script>
+20 verbose bad json       $(function () {
+20 verbose bad json         $('#search-input').keypress(function (e) {
+20 verbose bad json           if(e.keyCode !== 13) {
+20 verbose bad json             return;
+20 verbose bad json           }
+20 verbose bad json           var val = $(this).val().trim();
+20 verbose bad json           if (val) {
+20 verbose bad json             return location.href = '/browse/keyword/' + val;
+20 verbose bad json           }
+20 verbose bad json         });
+20 verbose bad json
+20 verbose bad json         $(".nav-tabs li").each(function (index) {
+20 verbose bad json           $(this).data("index", index);
+20 verbose bad json         })
+20 verbose bad json         .on("click", function (e) {
+20 verbose bad json           e.preventDefault();
+20 verbose bad json           $(".nav-tabs li.active,.nav-cont.active").removeClass("active");
+20 verbose bad json           $(this).addClass("active");
+20 verbose bad json           $(".nav-cont").eq($(this).data("index")).addClass("active");
+20 verbose bad json         });
+20 verbose bad json       });
+20 verbose bad json     </script>
+20 verbose bad json   </head>
+20 verbose bad json   <body>
+20 verbose bad json     <div class="container">
+20 verbose bad json       <header id="header">
+20 verbose bad json         <div class="logo">
+20 verbose bad json           <a href="/"><img src="https://zos.alipayobjects.com/rmsportal/UQvFKvLLWPPmxTM.png"></a>
+20 verbose bad json           <a class="ad-banner" target="_blank" href="https://render.alipay.com/p/s/taobaonpm_click/npmtaobao_click"><img src="https://render.alipay.com/p/s/taobaonpm_click/npmtaobao_banner" style="width: 300px"></a>
+20 verbose bad json         </div>
+20 verbose bad json         <input type="text" id="search-input" class="ant-input ant-input-lg" placeholder="Search Packages">
+20 verbose bad json       </header>
+20 verbose bad json
+20 verbose bad json       <div class="yue">
+20 verbose bad json          <div class="pack-overview-background"></div>
+20 verbose bad json  <div class="pack-overview">
+20 verbose bad json     <div class="pack-info">
+20 verbose bad json
+20 verbose bad json         <div class="pack-name">hexo-related-popular-posts</div>
+20 verbose bad json
+20 verbose bad json           <div class="pack-description" title="A hexo plugin that generates a list of links to related posts and popular posts. Also , this plugin can get Visitor Counts (PageView) on posts.">A hexo plugin that generates a list of links to related posts and popular posts. Also , this plugin can get Visitor Counts (PageView) on posts.</div>
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json       <div class="pack-ver">
+20 verbose bad json         <img title="2.0.4" src="/badge/v/hexo-related-popular-posts.svg?style=flat-square">
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json         <a class="badge-link" href="https://snyk.io.cnpmjs.org/test/npm/hexo-related-popular-posts" target="_blank"><img title="Known Vulnerabilities" src="https://snyk.io.cnpmjs.org/test/npm/hexo-related-popular-posts/badge.svg?style=flat-square"></a>
+20 verbose bad json
+20 verbose bad json       </div>
+20 verbose bad json       <div class="pack-repo">
+20 verbose bad json
+20 verbose bad json           <div class="pack-lastup">
+20 verbose bad json             Last updated 9 days ago
+20 verbose bad json
+20 verbose bad json               by <a href="/~tea3gt">tea3gt</a>
+20 verbose bad json
+20 verbose bad json             .
+20 verbose bad json             </div>
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json           <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a>
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json            &middot;
+20 verbose bad json           <a href="https://github.com/tea3/hexo-related-popular-posts" target="_blank">Repository</a>
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json            &middot;
+20 verbose bad json           <a href="https://github.com/tea3/hexo-related-popular-posts/issues" target="_blank">Bugs</a>
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json          &middot;
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json         <a href="https://www.npmjs.org/package/hexo-related-popular-posts" target="_blank">Original npm</a>
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json           &middot;
+20 verbose bad json           <a href="http://registry.npm.taobao.org/hexo-related-popular-posts/download/hexo-related-popular-posts-2.0.4.tgz" target="_blank">Tarball</a>
+20 verbose bad json
+20 verbose bad json       </div>
+20 verbose bad json       <div class="pack-install">
+20 verbose bad json         <pre class="sh">$ cnpm install hexo-related-popular-posts </pre>
+20 verbose bad json         <div class="pack-sync">
+20 verbose bad json
+20 verbose bad json             <a href="/sync/hexo-related-popular-posts" target="_blank">SYNC</a> missed versions from
+20 verbose bad json               <a href="//registry.npm.taobao.org/hexo-related-popular-posts" target="_blank">official npm registry</a>.
+20 verbose bad json
+20 verbose bad json         </div>
+20 verbose bad json       </div>
+20 verbose bad json     </div>
+20 verbose bad json   </div>
+20 verbose bad json </div>
+20 verbose bad json
+20 verbose bad json <div class="row">
+20 verbose bad json
+20 verbose bad json
+20 verbose bad json   <div class="pack-readme col-17">
+20 verbose bad json     <section id="readme" class="markdown-body">
+20 verbose bad json       <h1>hexo-related-popular-posts</h1>
+20 verbose bad json <p>A hexo plugin that generates a list of links to related posts or popular posts.</p>
+20 verbose bad json <p><a href="https://photo-tea.com/p/tea-plantation-mtfuji/#relatedPosts">DEMO</a> | <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings">Wiki</a> | <a href="https://photo-tea.com/p/hexo-related-popular-posts/">Documents</a></p>
+20 verbose bad json <p><img src alt="Screenshot"></p>
+20 verbose bad json <h2>Overview</h2>
+20 verbose bad json <ul>
+20 verbose bad json <li>
+20 verbose bad json <p>Generate <a href="#simply-usage">related list of posts</a>.</p>
+20 verbose bad json <p>Sort and extracted by <a href="#simply-usage">relevance of tags</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#advanced-related-posts-morphological-analysis">word relevance of contents</a>.</p>
+20 verbose bad json </li>
+20 verbose bad json <li>
+20 verbose bad json <p>Generate <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#popular-posts">popular list of posts</a>.</p>
+20 verbose bad json <p>Sort and extract in Google Analytics page view.</p>
+20 verbose bad json </li>
+20 verbose bad json <li>
+20 verbose bad json <p>Generate <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#visitor-counter">Page Views information</a> in posts.</p>
+20 verbose bad json <p>Gets and displays the Google Analytics page view.</p>
+20 verbose bad json </li>
+20 verbose bad json <li>
+20 verbose bad json <p>Flexible customizable <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#hepler">option</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#customize-html">design</a></p>
+20 verbose bad json </li>
+20 verbose bad json <li>
+20 verbose bad json <p><a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#cache">Improve production speed</a></p>
+20 verbose bad json </li>
+20 verbose bad json </ul>
+20 verbose bad json <hr>
+20 verbose bad json <h2>Installation</h2>
+20 verbose bad json <pre><code class="language-bash">$ npm install hexo-related-popular-posts --save
+20 verbose bad json </code></pre>
+20 verbose bad json <p>If you occur <code>ERROR Plugin load failed:</code> error or <code>DTraceProviderBindings.node</code> error , please see below.</p>
+20 verbose bad json <ul>
+20 verbose bad json <li><a href="https://github.com/tea3/hexo-related-popular-posts/blob/master/.github/ISSUE_TEMPLATE.md">ISSUE_TEMPLATE</a></li>
+20 verbose bad json <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/1">DTraceProviderBindings.node issue #1</a></li>
+20 verbose bad json </ul>
+20 verbose bad json <hr>
+20 verbose bad json <h2>Simply Usage</h2>
+20 verbose bad json <h3>1. Edit your theme</h3>
+20 verbose bad json <p>First, add the following <code>popular_posts()</code> helper tag in template file for article. For example , if you use <a href="https://github.com/hexojs/hexo-theme-landscape">hexo-theme-landscape</a> , add a tag <a href="https://github.com/hexojs/hexo-theme-landscape/blob/master/layout/_partial/article.ejs#L25">here</a>.</p>
+20 verbose bad json <pre><code class="language-ejs">  &lt;%-
+20 verbose bad json     popular_posts()
+20 verbose bad json   %&gt;
+20 verbose bad json </code></pre>
+20 verbose bad json <p>Helper tag can set <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#hepler">more option</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#customize-html">customize the design</a> . For detail , please see the wiki.</p>
+20 verbose bad json <p>Also , if you occur <code>Cannot read property 'tags' of undefined</code> error , please refer to the follow as.</p>
+20 verbose bad json <ul>
+20 verbose bad json <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/4">Swig (e.g. hexo-theme-next)</a></li>
+20 verbose bad json <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/6">Ejs (e.g. hexo-theme-phantom)</a></li>
+20 verbose bad json </ul>
+20 verbose bad json <h3>2. Add tags in markdown</h3>
+20 verbose bad json <p>If tags are included in the article, related articles can be displayed as a list. For example, add a tag like the following markdown file.</p>
+20 verbose bad json <pre><code>---
+20 verbose bad json title: Hello World
+20 verbose bad json tags:
+20 verbose bad json   - program
+20 verbose bad json   - diary
+20 verbose bad json   - web
+20 verbose bad json ---
+20 verbose bad json Welcome to [Hexo](https://hexo.io/)! This is a sample article. Let's add some tags as above.
+20 verbose bad json ...
+20 verbose bad json </code></pre>
+20 verbose bad json <p>The larger the number of matching tags, the more relevant articles are displayed as candidates. Otherside , <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#advanced-related-posts-morphological-analysis">advanced related posts</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#popular-posts">popular posts</a> can be displayed. Please see the wiki .</p>
+20 verbose bad json <h3>3. Run server</h3>
+20 verbose bad json <p>Starts a local server. By default, this is at <code>http://localhost:4000/</code>.</p>
+20 verbose bad json <pre><code class="language-bash">$ hexo clean
+20 verbose bad json $ hexo server
+20 verbose bad json </code></pre>
+20 verbose bad json <hr>
+20 verbose bad json <h2>Thank you for introduction.</h2>
+20 verbose bad json <ul>
+20 verbose bad json <li><a href="http://ccambo.gitlab.io/2017/04/19/Plugins-hexo-related-popular-posts-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0/">Plugins hexo-related-popular-posts 설정하기 - MSFL::모리스 소프트웨어 공작소, IT Blog</a></li>
+20 verbose bad json <li><a href="https://yoshinorin.net/2016/11/03/hexo-blog-customize/">サイトをカスタマイズしました : タグクラウドプラグイン &amp; 関連記事表示プラグインの導入 &amp; 一部シェアボタン追加 - YoshinoriN's Memento</a></li>
+20 verbose bad json <li><a href="http://8hagi.sakura.ne.jp/sblog/2017/02/11/hexo-related-post/">HEXOをカスタマイズしました(関連記事プラグイン導入とか)&quot;&gt;HEXOをカスタマイズしました(関連記事プラグイン導入とか) - 可愛いを叫ぶブログ</a></li>
+20 verbose bad json <li><a href="https://azriton.github.io/2017/06/16/Hexo%E3%81%AB%E9%96%A2%E9%80%A3%E3%81%99%E3%82%8B%E8%A8%98%E4%BA%8B%E3%81%AE%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B/">Hexo に 関連する記事のリストを追加する - Azriton's blog</a></li>
+20 verbose bad json </ul>
+20 verbose bad json <h2>Thank you for a wonderful plugin.</h2>
+20 verbose bad json <ul>
+20 verbose bad json <li>Hexo : <a href="http://hexo.io/">http://hexo.io/</a></li>
+20 verbose bad json <li>ga-analytics : <a href="https://github.com/sfarthin/ga-analytics">https://github.com/sfarthin/ga-analytics</a></li>
+20 verbose bad json <li>kuromoji.js : <a href="https://github.com/takuyaa/kuromoji.js">https://github.com/takuyaa/kuromoji.js</a></li>
+20 verbose bad json </ul>
+20 verbose bad json <h2>License</h2>
+20 verbose bad json <p>MIT</p>
+20 verbose bad json
+20 verbose bad json     </section>
+20 verbose bad json   </div>
+20 verbose bad json
+20 verbose bad json   <div class="pack-details cols-box col-6 col-push-1">
+20 verbose bad json
+20 verbose bad json     <div class="pack-maintainers cols-box-item">
+20 verbose bad json       <div class="cols-box-title">
+20 verbose bad json
+20 verbose bad json         Maintainers  (1)
+20 verbose bad json       </div>
+20 verbose bad json       <div class="maintainers">
+20 verbose bad json
+20 verbose bad json           <div class="maintainer">
+20 verbose bad json             <a class="username" href="/~tea3gt">
+20 verbose bad json               <img src="https://s.gravatar.com/avatar/df6c95ec1ee14d63468d8c3401e72c16?s=50&amp;d=retro" class="avatar">
+20 verbose bad json               tea3gt
+20 verbose bad json             </a>
+20 verbose bad json           </div>
+20 verbose bad json
+20 verbose bad json       </div>
+20 verbose bad json     </div>
+20 verbose bad json
+20 verbose bad json     <div class="pack-downloads cols-box-item">
+20 verbose bad json       <div class="cols-box-title">
+20 verbose bad json         Downloads
+20 verbose bad json       </div>
+20 verbose bad json       <div class="downloads">
+20 verbose bad json         <div class="row">
+20 verbose bad json           Today
+20 verbose bad json           <span class="pack-download-num">0</span>
+20 verbose bad json           </div>
+20 verbose bad json       <div class="row">
+20 verbose bad json           This Week
+20 verbose bad json           <span class="pack-download-num">1</span>
+20 verbose bad json           </div>
+20 verbose bad json       <div class="row">
+20 verbose bad json           This Month
+20 verbose bad json           <span class="pack-download-num">1</span>
+20 verbose bad json           </div>
+20 verbose bad json       <div class="row">
+20 verbose bad json           Last Day
+20 verbose bad json           <span class="pack-download-num">1</span>
+20 verbose bad json           </div>
+20 verbose bad json       <div class="row">
+20 verbose bad json           Last Week
+20 verbose bad json           <span class="pack-download-num">19</span>
+20 verbose bad json           </div>
+20 verbose bad json       <div class="row">
+20 verbose bad json           Last Month
+20 verbose bad json           <span class="pack-download-num">41</span>
+20 verbose bad json         </div>
+20 verbose bad json       </div>
+20 verbose bad json     </div>
+20 verbose bad json     <div class="pack-dep cols-box-item">
+20 verbose bad json       <div class="cols-box-title">
+20 verbose bad json
+20 verbose bad json         Dependencies (10)
+20 verbose bad json
+20 verbose bad json       </div>
+20 verbose bad json
+20 verbose bad json         <ul>
+20 verbose bad json
+20 verbose bad json         <li>
+20 verbose bad json           <a class="pack-dep-name" target="_blank" href="/package/columnify">columnify</a>
+20 verbose bad json            <span class="pack-dep-ver">^1.5.4</span>
+20 verbose bad json         </li>
+20 verbose bad json
+20 verbose bad json         <li>
+20 verbose bad json           <a class="pack-dep-name" target="_blank" href="/package/ga-analytics">ga-analytics</a>
+20 verbose bad json            <span class="pack-dep-ver">^0.0.7</span>
+20 verbose bad json         </li>
+20 verbose bad json
+20 verbose bad json         <li>
+20 verbose bad json           <a class="pack-dep-name" target="_blank" href="/package/hexo-fs">hexo-fs</a>
+20 verbose bad json            <span class="pack-dep-ver">^0.2.2</span>
+20 verbose bad json         </li>
+20 verbose bad json
+20 verbose bad json         <li>
+20 verbose bad json           <a class="pack-dep-name" target="_blank" href="/package/mkdirp">mkdirp</a>
+20 verbose bad json            <span class="pack-dep-ver">^0.5.1</span>
+20 verbose bad json         </li>
+20 verbose bad json
+20 verbose bad json         <li>
+20 verbose bad json           <a class="pack-dep-name" target="_blank" href="/package/moment">moment</a>
+20 verbose bad json            <span class="pack-dep-ver">^2.19.1</span>
+20 verbose bad json         </li>
+20 verbose bad json
+20 verbose bad json         <li>
+20 verbose bad json           <a class="pack-dep-name" target="_blank" href="/package/object-assign">object-assign</a>
+20 verbose bad json            <span class="pack-dep-ver">^4.1.1</span>
+20 verbose bad json         </li>
+20 verbose bad json
+20 verbose bad json         <li>
+20 verbose bad json           <a class="pack-dep-name" target="_blank" href="/package/kuromoji">kuromoji</a>
+20 verbose bad json            <span class="pack-dep-ver">^0.1.1</span>
+20 verbose bad json         </li>
+20 verbose bad json
+20 verbose bad json         <li>
+20 verbose bad json           <a class="pack-dep-name" target="_blank" href="/package/bluebird">bluebird</a>
+20 verbose bad json            <span class="pack-dep-ver">^3.5.1</span>
+20 verbose bad json         </li>
+20 verbose bad json
+20 verbose bad json         <li>
+20 verbose bad json           <a class="pack-dep-name" target="_blank" href="/package/hasha">hasha</a>
+20 verbose bad json            <span class="pack-dep-ver">^3.0.0</span>
+20 verbose bad json         </li>
+20 verbose bad json
+20 verbose bad json         <li>
+20 verbose bad json           <a class="pack-dep-name" target="_blank" href="/package/log-util">log-util</a>
+20 verbose bad json            <span class="pack-dep-ver">^1.2.0</span>
+20 verbose bad json         </li>
+20 verbose bad json
+20 verbose bad json       </ul>
+20 verbose bad json
+20 verbose bad json     </div>
+20 verbose bad json     <div class="pack-dep cols-box-item">
+20 verbose bad json       <div class="cols-box-title">
+20 verbose bad json
+20 verbose bad json         Dev Dependencies (1)
+20 verbose bad json
+20 verbose bad json       </div>
+20 verbose bad json
+20 verbose bad json         <ul>
+20 verbose bad json
+20 verbose bad json         <li>
+20 verbose bad json           <a class="pack-dep-name" target="_blank" href="/package/hexo">hexo</a>
+20 verbose bad json            <span class="pack-dep-ver">^3.0.0-rc.3</span>
+20 verbose bad json         </li>
+20 verbose bad json
+20 verbose bad json       </ul>
+20 verbose bad json
+20 verbose bad json     </div>
+20 verbose bad json
+20 verbose bad json     <div class="pack-dep cols-box-item">
+20 verbose bad json       <div class="cols-box-title">
+20 verbose bad json
+20 verbose bad json         Dependents (0)
+20 verbose bad json
+20 verbose bad json       </div>
+20 verbose bad json
+20 verbose bad json         None
+20 verbose bad json
+20 verbose bad json     </div>
+20 verbose bad json
+20 verbose bad json   </div>
+20 verbose bad json </div>
+20 verbose bad json
+20 verbose bad json       </div>
+20 verbose bad json       <div class="bottom">
+20 verbose bad json         <hr/>
+20 verbose bad json         <p>
+20 verbose bad json           Copyright 2014 - 2016 &copy; taobao.org | <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5874717'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D5874717%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+20 verbose bad json         </p>
+20 verbose bad json       </div>
+20 verbose bad json     </div>
+20 verbose bad json
+20 verbose bad json     <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+20 verbose bad json     <script src="//dn-staticfile.qbox.me/respond.js/1.2.0/respond.min.js"></script>
+20 verbose bad json
+20 verbose bad json     <script src="//dn-staticfile.qbox.me/prettify/r298/prettify.min.js"></script>
+20 verbose bad json
+20 verbose bad json     <!-- Specific to this page -->
+20 verbose bad json     <script>
+20 verbose bad json     $(function () {
+20 verbose bad json       $('pre code').parent().addClass('prettyprint');
+20 verbose bad json       prettyPrint();
+20 verbose bad json     });
+20 verbose bad json     </script>
+20 verbose bad json   </body>
+20 verbose bad json </html>
+21 error registry error parsing json
+22 verbose headers { date: 'Sun, 05 Nov 2017 03:23:13 GMT',
+22 verbose headers   'content-type': 'text/html; charset=utf-8',
+22 verbose headers   'transfer-encoding': 'chunked',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   vary: 'Accept-Encoding',
+22 verbose headers   'x-current-requests': '1',
+22 verbose headers   'x-readtime': '34',
+22 verbose headers   'strict-transport-security': 'max-age=15768000',
+22 verbose headers   'content-encoding': 'gzip' }
+23 silly get cb [ 200,
+23 silly get   { date: 'Sun, 05 Nov 2017 03:23:13 GMT',
+23 silly get     'content-type': 'text/html; charset=utf-8',
+23 silly get     'transfer-encoding': 'chunked',
+23 silly get     connection: 'keep-alive',
+23 silly get     vary: 'Accept-Encoding',
+23 silly get     'x-current-requests': '1',
+23 silly get     'x-readtime': '34',
+23 silly get     'strict-transport-security': 'max-age=15768000',
+23 silly get     'content-encoding': 'gzip' } ]
+24 silly fetchPackageMetaData SyntaxError: Unexpected token < in JSON at position 0
+24 silly fetchPackageMetaData <!DOCTYPE html>
+24 silly fetchPackageMetaData <html>
+24 silly fetchPackageMetaData   <head>
+24 silly fetchPackageMetaData     <meta charset="utf-8">
+24 silly fetchPackageMetaData     <title>Package - hexo-related-popular-posts</title>
+24 silly fetchPackageMetaData     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+24 silly fetchPackageMetaData     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+24 silly fetchPackageMetaData     <meta name="apple-mobile-web-app-capable" content="yes" />
+24 silly fetchPackageMetaData     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+24 silly fetchPackageMetaData     <link rel="shortcut icon" href="/favicon.png">
+24 silly fetchPackageMetaData     <!-- Ant design -->
+24 silly fetchPackageMetaData     <link href="/css/antd-0.9.1.min.css" rel="stylesheet" media="screen">
+24 silly fetchPackageMetaData     <link href="/css/main.css" rel="stylesheet" media="screen">
+24 silly fetchPackageMetaData     <link href="/css/yue.css" rel="stylesheet" media="screen">
+24 silly fetchPackageMetaData     <link href="/css/github.css" rel="stylesheet" media="screen">
+24 silly fetchPackageMetaData     <link href="/css/github-markdown.css" rel="stylesheet" media="screen">
+24 silly fetchPackageMetaData     <!-- JavaScript plugins (requires jQuery) -->
+24 silly fetchPackageMetaData     <script src="//dn-staticfile.qbox.me/jquery/2.0.3/jquery.min.js"></script>
+24 silly fetchPackageMetaData     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CNPM" />
+24 silly fetchPackageMetaData     <script>
+24 silly fetchPackageMetaData       $(function () {
+24 silly fetchPackageMetaData         $('#search-input').keypress(function (e) {
+24 silly fetchPackageMetaData           if(e.keyCode !== 13) {
+24 silly fetchPackageMetaData             return;
+24 silly fetchPackageMetaData           }
+24 silly fetchPackageMetaData           var val = $(this).val().trim();
+24 silly fetchPackageMetaData           if (val) {
+24 silly fetchPackageMetaData             return location.href = '/browse/keyword/' + val;
+24 silly fetchPackageMetaData           }
+24 silly fetchPackageMetaData         });
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         $(".nav-tabs li").each(function (index) {
+24 silly fetchPackageMetaData           $(this).data("index", index);
+24 silly fetchPackageMetaData         })
+24 silly fetchPackageMetaData         .on("click", function (e) {
+24 silly fetchPackageMetaData           e.preventDefault();
+24 silly fetchPackageMetaData           $(".nav-tabs li.active,.nav-cont.active").removeClass("active");
+24 silly fetchPackageMetaData           $(this).addClass("active");
+24 silly fetchPackageMetaData           $(".nav-cont").eq($(this).data("index")).addClass("active");
+24 silly fetchPackageMetaData         });
+24 silly fetchPackageMetaData       });
+24 silly fetchPackageMetaData     </script>
+24 silly fetchPackageMetaData   </head>
+24 silly fetchPackageMetaData   <body>
+24 silly fetchPackageMetaData     <div class="container">
+24 silly fetchPackageMetaData       <header id="header">
+24 silly fetchPackageMetaData         <div class="logo">
+24 silly fetchPackageMetaData           <a href="/"><img src="https://zos.alipayobjects.com/rmsportal/UQvFKvLLWPPmxTM.png"></a>
+24 silly fetchPackageMetaData           <a class="ad-banner" target="_blank" href="https://render.alipay.com/p/s/taobaonpm_click/npmtaobao_click"><img src="https://render.alipay.com/p/s/taobaonpm_click/npmtaobao_banner" style="width: 300px"></a>
+24 silly fetchPackageMetaData         </div>
+24 silly fetchPackageMetaData         <input type="text" id="search-input" class="ant-input ant-input-lg" placeholder="Search Packages">
+24 silly fetchPackageMetaData       </header>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       <div class="yue">
+24 silly fetchPackageMetaData          <div class="pack-overview-background"></div>
+24 silly fetchPackageMetaData  <div class="pack-overview">
+24 silly fetchPackageMetaData     <div class="pack-info">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <div class="pack-name">hexo-related-popular-posts</div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData           <div class="pack-description" title="A hexo plugin that generates a list of links to related posts and popular posts. Also , this plugin can get Visitor Counts (PageView) on posts.">A hexo plugin that generates a list of links to related posts and popular posts. Also , this plugin can get Visitor Counts (PageView) on posts.</div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       <div class="pack-ver">
+24 silly fetchPackageMetaData         <img title="2.0.4" src="/badge/v/hexo-related-popular-posts.svg?style=flat-square">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <a class="badge-link" href="https://snyk.io.cnpmjs.org/test/npm/hexo-related-popular-posts" target="_blank"><img title="Known Vulnerabilities" src="https://snyk.io.cnpmjs.org/test/npm/hexo-related-popular-posts/badge.svg?style=flat-square"></a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData       <div class="pack-repo">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData           <div class="pack-lastup">
+24 silly fetchPackageMetaData             Last updated 9 days ago
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData               by <a href="/~tea3gt">tea3gt</a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData             .
+24 silly fetchPackageMetaData             </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData           <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData            &middot;
+24 silly fetchPackageMetaData           <a href="https://github.com/tea3/hexo-related-popular-posts" target="_blank">Repository</a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData            &middot;
+24 silly fetchPackageMetaData           <a href="https://github.com/tea3/hexo-related-popular-posts/issues" target="_blank">Bugs</a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData          &middot;
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <a href="https://www.npmjs.org/package/hexo-related-popular-posts" target="_blank">Original npm</a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData           &middot;
+24 silly fetchPackageMetaData           <a href="http://registry.npm.taobao.org/hexo-related-popular-posts/download/hexo-related-popular-posts-2.0.4.tgz" target="_blank">Tarball</a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData       <div class="pack-install">
+24 silly fetchPackageMetaData         <pre class="sh">$ cnpm install hexo-related-popular-posts </pre>
+24 silly fetchPackageMetaData         <div class="pack-sync">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData             <a href="/sync/hexo-related-popular-posts" target="_blank">SYNC</a> missed versions from
+24 silly fetchPackageMetaData               <a href="//registry.npm.taobao.org/hexo-related-popular-posts" target="_blank">official npm registry</a>.
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         </div>
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData   </div>
+24 silly fetchPackageMetaData </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData <div class="row">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData   <div class="pack-readme col-17">
+24 silly fetchPackageMetaData     <section id="readme" class="markdown-body">
+24 silly fetchPackageMetaData       <h1>hexo-related-popular-posts</h1>
+24 silly fetchPackageMetaData <p>A hexo plugin that generates a list of links to related posts or popular posts.</p>
+24 silly fetchPackageMetaData <p><a href="https://photo-tea.com/p/tea-plantation-mtfuji/#relatedPosts">DEMO</a> | <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings">Wiki</a> | <a href="https://photo-tea.com/p/hexo-related-popular-posts/">Documents</a></p>
+24 silly fetchPackageMetaData <p><img src alt="Screenshot"></p>
+24 silly fetchPackageMetaData <h2>Overview</h2>
+24 silly fetchPackageMetaData <ul>
+24 silly fetchPackageMetaData <li>
+24 silly fetchPackageMetaData <p>Generate <a href="#simply-usage">related list of posts</a>.</p>
+24 silly fetchPackageMetaData <p>Sort and extracted by <a href="#simply-usage">relevance of tags</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#advanced-related-posts-morphological-analysis">word relevance of contents</a>.</p>
+24 silly fetchPackageMetaData </li>
+24 silly fetchPackageMetaData <li>
+24 silly fetchPackageMetaData <p>Generate <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#popular-posts">popular list of posts</a>.</p>
+24 silly fetchPackageMetaData <p>Sort and extract in Google Analytics page view.</p>
+24 silly fetchPackageMetaData </li>
+24 silly fetchPackageMetaData <li>
+24 silly fetchPackageMetaData <p>Generate <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#visitor-counter">Page Views information</a> in posts.</p>
+24 silly fetchPackageMetaData <p>Gets and displays the Google Analytics page view.</p>
+24 silly fetchPackageMetaData </li>
+24 silly fetchPackageMetaData <li>
+24 silly fetchPackageMetaData <p>Flexible customizable <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#hepler">option</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#customize-html">design</a></p>
+24 silly fetchPackageMetaData </li>
+24 silly fetchPackageMetaData <li>
+24 silly fetchPackageMetaData <p><a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#cache">Improve production speed</a></p>
+24 silly fetchPackageMetaData </li>
+24 silly fetchPackageMetaData </ul>
+24 silly fetchPackageMetaData <hr>
+24 silly fetchPackageMetaData <h2>Installation</h2>
+24 silly fetchPackageMetaData <pre><code class="language-bash">$ npm install hexo-related-popular-posts --save
+24 silly fetchPackageMetaData </code></pre>
+24 silly fetchPackageMetaData <p>If you occur <code>ERROR Plugin load failed:</code> error or <code>DTraceProviderBindings.node</code> error , please see below.</p>
+24 silly fetchPackageMetaData <ul>
+24 silly fetchPackageMetaData <li><a href="https://github.com/tea3/hexo-related-popular-posts/blob/master/.github/ISSUE_TEMPLATE.md">ISSUE_TEMPLATE</a></li>
+24 silly fetchPackageMetaData <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/1">DTraceProviderBindings.node issue #1</a></li>
+24 silly fetchPackageMetaData </ul>
+24 silly fetchPackageMetaData <hr>
+24 silly fetchPackageMetaData <h2>Simply Usage</h2>
+24 silly fetchPackageMetaData <h3>1. Edit your theme</h3>
+24 silly fetchPackageMetaData <p>First, add the following <code>popular_posts()</code> helper tag in template file for article. For example , if you use <a href="https://github.com/hexojs/hexo-theme-landscape">hexo-theme-landscape</a> , add a tag <a href="https://github.com/hexojs/hexo-theme-landscape/blob/master/layout/_partial/article.ejs#L25">here</a>.</p>
+24 silly fetchPackageMetaData <pre><code class="language-ejs">  &lt;%-
+24 silly fetchPackageMetaData     popular_posts()
+24 silly fetchPackageMetaData   %&gt;
+24 silly fetchPackageMetaData </code></pre>
+24 silly fetchPackageMetaData <p>Helper tag can set <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#hepler">more option</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#customize-html">customize the design</a> . For detail , please see the wiki.</p>
+24 silly fetchPackageMetaData <p>Also , if you occur <code>Cannot read property 'tags' of undefined</code> error , please refer to the follow as.</p>
+24 silly fetchPackageMetaData <ul>
+24 silly fetchPackageMetaData <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/4">Swig (e.g. hexo-theme-next)</a></li>
+24 silly fetchPackageMetaData <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/6">Ejs (e.g. hexo-theme-phantom)</a></li>
+24 silly fetchPackageMetaData </ul>
+24 silly fetchPackageMetaData <h3>2. Add tags in markdown</h3>
+24 silly fetchPackageMetaData <p>If tags are included in the article, related articles can be displayed as a list. For example, add a tag like the following markdown file.</p>
+24 silly fetchPackageMetaData <pre><code>---
+24 silly fetchPackageMetaData title: Hello World
+24 silly fetchPackageMetaData tags:
+24 silly fetchPackageMetaData   - program
+24 silly fetchPackageMetaData   - diary
+24 silly fetchPackageMetaData   - web
+24 silly fetchPackageMetaData ---
+24 silly fetchPackageMetaData Welcome to [Hexo](https://hexo.io/)! This is a sample article. Let's add some tags as above.
+24 silly fetchPackageMetaData ...
+24 silly fetchPackageMetaData </code></pre>
+24 silly fetchPackageMetaData <p>The larger the number of matching tags, the more relevant articles are displayed as candidates. Otherside , <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#advanced-related-posts-morphological-analysis">advanced related posts</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#popular-posts">popular posts</a> can be displayed. Please see the wiki .</p>
+24 silly fetchPackageMetaData <h3>3. Run server</h3>
+24 silly fetchPackageMetaData <p>Starts a local server. By default, this is at <code>http://localhost:4000/</code>.</p>
+24 silly fetchPackageMetaData <pre><code class="language-bash">$ hexo clean
+24 silly fetchPackageMetaData $ hexo server
+24 silly fetchPackageMetaData </code></pre>
+24 silly fetchPackageMetaData <hr>
+24 silly fetchPackageMetaData <h2>Thank you for introduction.</h2>
+24 silly fetchPackageMetaData <ul>
+24 silly fetchPackageMetaData <li><a href="http://ccambo.gitlab.io/2017/04/19/Plugins-hexo-related-popular-posts-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0/">Plugins hexo-related-popular-posts 설정하기 - MSFL::모리스 소프트웨어 공작소, IT Blog</a></li>
+24 silly fetchPackageMetaData <li><a href="https://yoshinorin.net/2016/11/03/hexo-blog-customize/">サイトをカスタマイズしました : タグクラウドプラグイン &amp; 関連記事表示プラグインの導入 &amp; 一部シェアボタン追加 - YoshinoriN's Memento</a></li>
+24 silly fetchPackageMetaData <li><a href="http://8hagi.sakura.ne.jp/sblog/2017/02/11/hexo-related-post/">HEXOをカスタマイズしました(関連記事プラグイン導入とか)&quot;&gt;HEXOをカスタマイズしました(関連記事プラグイン導入とか) - 可愛いを叫ぶブログ</a></li>
+24 silly fetchPackageMetaData <li><a href="https://azriton.github.io/2017/06/16/Hexo%E3%81%AB%E9%96%A2%E9%80%A3%E3%81%99%E3%82%8B%E8%A8%98%E4%BA%8B%E3%81%AE%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B/">Hexo に 関連する記事のリストを追加する - Azriton's blog</a></li>
+24 silly fetchPackageMetaData </ul>
+24 silly fetchPackageMetaData <h2>Thank you for a wonderful plugin.</h2>
+24 silly fetchPackageMetaData <ul>
+24 silly fetchPackageMetaData <li>Hexo : <a href="http://hexo.io/">http://hexo.io/</a></li>
+24 silly fetchPackageMetaData <li>ga-analytics : <a href="https://github.com/sfarthin/ga-analytics">https://github.com/sfarthin/ga-analytics</a></li>
+24 silly fetchPackageMetaData <li>kuromoji.js : <a href="https://github.com/takuyaa/kuromoji.js">https://github.com/takuyaa/kuromoji.js</a></li>
+24 silly fetchPackageMetaData </ul>
+24 silly fetchPackageMetaData <h2>License</h2>
+24 silly fetchPackageMetaData <p>MIT</p>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     </section>
+24 silly fetchPackageMetaData   </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData   <div class="pack-details cols-box col-6 col-push-1">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <div class="pack-maintainers cols-box-item">
+24 silly fetchPackageMetaData       <div class="cols-box-title">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         Maintainers  (1)
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData       <div class="maintainers">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData           <div class="maintainer">
+24 silly fetchPackageMetaData             <a class="username" href="/~tea3gt">
+24 silly fetchPackageMetaData               <img src="https://s.gravatar.com/avatar/df6c95ec1ee14d63468d8c3401e72c16?s=50&amp;d=retro" class="avatar">
+24 silly fetchPackageMetaData               tea3gt
+24 silly fetchPackageMetaData             </a>
+24 silly fetchPackageMetaData           </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <div class="pack-downloads cols-box-item">
+24 silly fetchPackageMetaData       <div class="cols-box-title">
+24 silly fetchPackageMetaData         Downloads
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData       <div class="downloads">
+24 silly fetchPackageMetaData         <div class="row">
+24 silly fetchPackageMetaData           Today
+24 silly fetchPackageMetaData           <span class="pack-download-num">0</span>
+24 silly fetchPackageMetaData           </div>
+24 silly fetchPackageMetaData       <div class="row">
+24 silly fetchPackageMetaData           This Week
+24 silly fetchPackageMetaData           <span class="pack-download-num">1</span>
+24 silly fetchPackageMetaData           </div>
+24 silly fetchPackageMetaData       <div class="row">
+24 silly fetchPackageMetaData           This Month
+24 silly fetchPackageMetaData           <span class="pack-download-num">1</span>
+24 silly fetchPackageMetaData           </div>
+24 silly fetchPackageMetaData       <div class="row">
+24 silly fetchPackageMetaData           Last Day
+24 silly fetchPackageMetaData           <span class="pack-download-num">1</span>
+24 silly fetchPackageMetaData           </div>
+24 silly fetchPackageMetaData       <div class="row">
+24 silly fetchPackageMetaData           Last Week
+24 silly fetchPackageMetaData           <span class="pack-download-num">19</span>
+24 silly fetchPackageMetaData           </div>
+24 silly fetchPackageMetaData       <div class="row">
+24 silly fetchPackageMetaData           Last Month
+24 silly fetchPackageMetaData           <span class="pack-download-num">41</span>
+24 silly fetchPackageMetaData         </div>
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData     <div class="pack-dep cols-box-item">
+24 silly fetchPackageMetaData       <div class="cols-box-title">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         Dependencies (10)
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <ul>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/columnify">columnify</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^1.5.4</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/ga-analytics">ga-analytics</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^0.0.7</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/hexo-fs">hexo-fs</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^0.2.2</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/mkdirp">mkdirp</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^0.5.1</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/moment">moment</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^2.19.1</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/object-assign">object-assign</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^4.1.1</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/kuromoji">kuromoji</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^0.1.1</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/bluebird">bluebird</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^3.5.1</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/hasha">hasha</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^3.0.0</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/log-util">log-util</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^1.2.0</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </ul>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData     <div class="pack-dep cols-box-item">
+24 silly fetchPackageMetaData       <div class="cols-box-title">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         Dev Dependencies (1)
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <ul>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/hexo">hexo</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^3.0.0-rc.3</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </ul>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <div class="pack-dep cols-box-item">
+24 silly fetchPackageMetaData       <div class="cols-box-title">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         Dependents (0)
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         None
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData   </div>
+24 silly fetchPackageMetaData </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData       <div class="bottom">
+24 silly fetchPackageMetaData         <hr/>
+24 silly fetchPackageMetaData         <p>
+24 silly fetchPackageMetaData           Copyright 2014 - 2016 &copy; taobao.org | <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5874717'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D5874717%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+24 silly fetchPackageMetaData         </p>
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+24 silly fetchPackageMetaData     <script src="//dn-staticfile.qbox.me/respond.js/1.2.0/respond.min.js"></script>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <script src="//dn-staticfile.qbox.me/prettify/r298/prettify.min.js"></script>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <!-- Specific to this page -->
+24 silly fetchPackageMetaData     <script>
+24 silly fetchPackageMetaData     $(function () {
+24 silly fetchPackageMetaData       $('pre code').parent().addClass('prettyprint');
+24 silly fetchPackageMetaData       prettyPrint();
+24 silly fetchPackageMetaData     });
+24 silly fetchPackageMetaData     </script>
+24 silly fetchPackageMetaData   </body>
+24 silly fetchPackageMetaData </html>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     at Object.parse (native)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:23)
+24 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:216:7
+24 silly fetchPackageMetaData     at Gunzip.onEnd (zlib.js:227:5)
+24 silly fetchPackageMetaData     at emitNone (events.js:91:20)
+24 silly fetchPackageMetaData     at Gunzip.emit (events.js:185:7)
+24 silly fetchPackageMetaData     at endReadableNT (_stream_readable.js:974:12)
+24 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+24 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+24 silly fetchPackageMetaData  error for hexo-related-popular-posts SyntaxError: Unexpected token < in JSON at position 0
+24 silly fetchPackageMetaData <!DOCTYPE html>
+24 silly fetchPackageMetaData <html>
+24 silly fetchPackageMetaData   <head>
+24 silly fetchPackageMetaData     <meta charset="utf-8">
+24 silly fetchPackageMetaData     <title>Package - hexo-related-popular-posts</title>
+24 silly fetchPackageMetaData     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+24 silly fetchPackageMetaData     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+24 silly fetchPackageMetaData     <meta name="apple-mobile-web-app-capable" content="yes" />
+24 silly fetchPackageMetaData     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+24 silly fetchPackageMetaData     <link rel="shortcut icon" href="/favicon.png">
+24 silly fetchPackageMetaData     <!-- Ant design -->
+24 silly fetchPackageMetaData     <link href="/css/antd-0.9.1.min.css" rel="stylesheet" media="screen">
+24 silly fetchPackageMetaData     <link href="/css/main.css" rel="stylesheet" media="screen">
+24 silly fetchPackageMetaData     <link href="/css/yue.css" rel="stylesheet" media="screen">
+24 silly fetchPackageMetaData     <link href="/css/github.css" rel="stylesheet" media="screen">
+24 silly fetchPackageMetaData     <link href="/css/github-markdown.css" rel="stylesheet" media="screen">
+24 silly fetchPackageMetaData     <!-- JavaScript plugins (requires jQuery) -->
+24 silly fetchPackageMetaData     <script src="//dn-staticfile.qbox.me/jquery/2.0.3/jquery.min.js"></script>
+24 silly fetchPackageMetaData     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CNPM" />
+24 silly fetchPackageMetaData     <script>
+24 silly fetchPackageMetaData       $(function () {
+24 silly fetchPackageMetaData         $('#search-input').keypress(function (e) {
+24 silly fetchPackageMetaData           if(e.keyCode !== 13) {
+24 silly fetchPackageMetaData             return;
+24 silly fetchPackageMetaData           }
+24 silly fetchPackageMetaData           var val = $(this).val().trim();
+24 silly fetchPackageMetaData           if (val) {
+24 silly fetchPackageMetaData             return location.href = '/browse/keyword/' + val;
+24 silly fetchPackageMetaData           }
+24 silly fetchPackageMetaData         });
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         $(".nav-tabs li").each(function (index) {
+24 silly fetchPackageMetaData           $(this).data("index", index);
+24 silly fetchPackageMetaData         })
+24 silly fetchPackageMetaData         .on("click", function (e) {
+24 silly fetchPackageMetaData           e.preventDefault();
+24 silly fetchPackageMetaData           $(".nav-tabs li.active,.nav-cont.active").removeClass("active");
+24 silly fetchPackageMetaData           $(this).addClass("active");
+24 silly fetchPackageMetaData           $(".nav-cont").eq($(this).data("index")).addClass("active");
+24 silly fetchPackageMetaData         });
+24 silly fetchPackageMetaData       });
+24 silly fetchPackageMetaData     </script>
+24 silly fetchPackageMetaData   </head>
+24 silly fetchPackageMetaData   <body>
+24 silly fetchPackageMetaData     <div class="container">
+24 silly fetchPackageMetaData       <header id="header">
+24 silly fetchPackageMetaData         <div class="logo">
+24 silly fetchPackageMetaData           <a href="/"><img src="https://zos.alipayobjects.com/rmsportal/UQvFKvLLWPPmxTM.png"></a>
+24 silly fetchPackageMetaData           <a class="ad-banner" target="_blank" href="https://render.alipay.com/p/s/taobaonpm_click/npmtaobao_click"><img src="https://render.alipay.com/p/s/taobaonpm_click/npmtaobao_banner" style="width: 300px"></a>
+24 silly fetchPackageMetaData         </div>
+24 silly fetchPackageMetaData         <input type="text" id="search-input" class="ant-input ant-input-lg" placeholder="Search Packages">
+24 silly fetchPackageMetaData       </header>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       <div class="yue">
+24 silly fetchPackageMetaData          <div class="pack-overview-background"></div>
+24 silly fetchPackageMetaData  <div class="pack-overview">
+24 silly fetchPackageMetaData     <div class="pack-info">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <div class="pack-name">hexo-related-popular-posts</div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData           <div class="pack-description" title="A hexo plugin that generates a list of links to related posts and popular posts. Also , this plugin can get Visitor Counts (PageView) on posts.">A hexo plugin that generates a list of links to related posts and popular posts. Also , this plugin can get Visitor Counts (PageView) on posts.</div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       <div class="pack-ver">
+24 silly fetchPackageMetaData         <img title="2.0.4" src="/badge/v/hexo-related-popular-posts.svg?style=flat-square">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <a class="badge-link" href="https://snyk.io.cnpmjs.org/test/npm/hexo-related-popular-posts" target="_blank"><img title="Known Vulnerabilities" src="https://snyk.io.cnpmjs.org/test/npm/hexo-related-popular-posts/badge.svg?style=flat-square"></a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData       <div class="pack-repo">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData           <div class="pack-lastup">
+24 silly fetchPackageMetaData             Last updated 9 days ago
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData               by <a href="/~tea3gt">tea3gt</a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData             .
+24 silly fetchPackageMetaData             </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData           <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData            &middot;
+24 silly fetchPackageMetaData           <a href="https://github.com/tea3/hexo-related-popular-posts" target="_blank">Repository</a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData            &middot;
+24 silly fetchPackageMetaData           <a href="https://github.com/tea3/hexo-related-popular-posts/issues" target="_blank">Bugs</a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData          &middot;
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <a href="https://www.npmjs.org/package/hexo-related-popular-posts" target="_blank">Original npm</a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData           &middot;
+24 silly fetchPackageMetaData           <a href="http://registry.npm.taobao.org/hexo-related-popular-posts/download/hexo-related-popular-posts-2.0.4.tgz" target="_blank">Tarball</a>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData       <div class="pack-install">
+24 silly fetchPackageMetaData         <pre class="sh">$ cnpm install hexo-related-popular-posts </pre>
+24 silly fetchPackageMetaData         <div class="pack-sync">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData             <a href="/sync/hexo-related-popular-posts" target="_blank">SYNC</a> missed versions from
+24 silly fetchPackageMetaData               <a href="//registry.npm.taobao.org/hexo-related-popular-posts" target="_blank">official npm registry</a>.
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         </div>
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData   </div>
+24 silly fetchPackageMetaData </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData <div class="row">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData   <div class="pack-readme col-17">
+24 silly fetchPackageMetaData     <section id="readme" class="markdown-body">
+24 silly fetchPackageMetaData       <h1>hexo-related-popular-posts</h1>
+24 silly fetchPackageMetaData <p>A hexo plugin that generates a list of links to related posts or popular posts.</p>
+24 silly fetchPackageMetaData <p><a href="https://photo-tea.com/p/tea-plantation-mtfuji/#relatedPosts">DEMO</a> | <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings">Wiki</a> | <a href="https://photo-tea.com/p/hexo-related-popular-posts/">Documents</a></p>
+24 silly fetchPackageMetaData <p><img src alt="Screenshot"></p>
+24 silly fetchPackageMetaData <h2>Overview</h2>
+24 silly fetchPackageMetaData <ul>
+24 silly fetchPackageMetaData <li>
+24 silly fetchPackageMetaData <p>Generate <a href="#simply-usage">related list of posts</a>.</p>
+24 silly fetchPackageMetaData <p>Sort and extracted by <a href="#simply-usage">relevance of tags</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#advanced-related-posts-morphological-analysis">word relevance of contents</a>.</p>
+24 silly fetchPackageMetaData </li>
+24 silly fetchPackageMetaData <li>
+24 silly fetchPackageMetaData <p>Generate <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#popular-posts">popular list of posts</a>.</p>
+24 silly fetchPackageMetaData <p>Sort and extract in Google Analytics page view.</p>
+24 silly fetchPackageMetaData </li>
+24 silly fetchPackageMetaData <li>
+24 silly fetchPackageMetaData <p>Generate <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#visitor-counter">Page Views information</a> in posts.</p>
+24 silly fetchPackageMetaData <p>Gets and displays the Google Analytics page view.</p>
+24 silly fetchPackageMetaData </li>
+24 silly fetchPackageMetaData <li>
+24 silly fetchPackageMetaData <p>Flexible customizable <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#hepler">option</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#customize-html">design</a></p>
+24 silly fetchPackageMetaData </li>
+24 silly fetchPackageMetaData <li>
+24 silly fetchPackageMetaData <p><a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#cache">Improve production speed</a></p>
+24 silly fetchPackageMetaData </li>
+24 silly fetchPackageMetaData </ul>
+24 silly fetchPackageMetaData <hr>
+24 silly fetchPackageMetaData <h2>Installation</h2>
+24 silly fetchPackageMetaData <pre><code class="language-bash">$ npm install hexo-related-popular-posts --save
+24 silly fetchPackageMetaData </code></pre>
+24 silly fetchPackageMetaData <p>If you occur <code>ERROR Plugin load failed:</code> error or <code>DTraceProviderBindings.node</code> error , please see below.</p>
+24 silly fetchPackageMetaData <ul>
+24 silly fetchPackageMetaData <li><a href="https://github.com/tea3/hexo-related-popular-posts/blob/master/.github/ISSUE_TEMPLATE.md">ISSUE_TEMPLATE</a></li>
+24 silly fetchPackageMetaData <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/1">DTraceProviderBindings.node issue #1</a></li>
+24 silly fetchPackageMetaData </ul>
+24 silly fetchPackageMetaData <hr>
+24 silly fetchPackageMetaData <h2>Simply Usage</h2>
+24 silly fetchPackageMetaData <h3>1. Edit your theme</h3>
+24 silly fetchPackageMetaData <p>First, add the following <code>popular_posts()</code> helper tag in template file for article. For example , if you use <a href="https://github.com/hexojs/hexo-theme-landscape">hexo-theme-landscape</a> , add a tag <a href="https://github.com/hexojs/hexo-theme-landscape/blob/master/layout/_partial/article.ejs#L25">here</a>.</p>
+24 silly fetchPackageMetaData <pre><code class="language-ejs">  &lt;%-
+24 silly fetchPackageMetaData     popular_posts()
+24 silly fetchPackageMetaData   %&gt;
+24 silly fetchPackageMetaData </code></pre>
+24 silly fetchPackageMetaData <p>Helper tag can set <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#hepler">more option</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#customize-html">customize the design</a> . For detail , please see the wiki.</p>
+24 silly fetchPackageMetaData <p>Also , if you occur <code>Cannot read property 'tags' of undefined</code> error , please refer to the follow as.</p>
+24 silly fetchPackageMetaData <ul>
+24 silly fetchPackageMetaData <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/4">Swig (e.g. hexo-theme-next)</a></li>
+24 silly fetchPackageMetaData <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/6">Ejs (e.g. hexo-theme-phantom)</a></li>
+24 silly fetchPackageMetaData </ul>
+24 silly fetchPackageMetaData <h3>2. Add tags in markdown</h3>
+24 silly fetchPackageMetaData <p>If tags are included in the article, related articles can be displayed as a list. For example, add a tag like the following markdown file.</p>
+24 silly fetchPackageMetaData <pre><code>---
+24 silly fetchPackageMetaData title: Hello World
+24 silly fetchPackageMetaData tags:
+24 silly fetchPackageMetaData   - program
+24 silly fetchPackageMetaData   - diary
+24 silly fetchPackageMetaData   - web
+24 silly fetchPackageMetaData ---
+24 silly fetchPackageMetaData Welcome to [Hexo](https://hexo.io/)! This is a sample article. Let's add some tags as above.
+24 silly fetchPackageMetaData ...
+24 silly fetchPackageMetaData </code></pre>
+24 silly fetchPackageMetaData <p>The larger the number of matching tags, the more relevant articles are displayed as candidates. Otherside , <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#advanced-related-posts-morphological-analysis">advanced related posts</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#popular-posts">popular posts</a> can be displayed. Please see the wiki .</p>
+24 silly fetchPackageMetaData <h3>3. Run server</h3>
+24 silly fetchPackageMetaData <p>Starts a local server. By default, this is at <code>http://localhost:4000/</code>.</p>
+24 silly fetchPackageMetaData <pre><code class="language-bash">$ hexo clean
+24 silly fetchPackageMetaData $ hexo server
+24 silly fetchPackageMetaData </code></pre>
+24 silly fetchPackageMetaData <hr>
+24 silly fetchPackageMetaData <h2>Thank you for introduction.</h2>
+24 silly fetchPackageMetaData <ul>
+24 silly fetchPackageMetaData <li><a href="http://ccambo.gitlab.io/2017/04/19/Plugins-hexo-related-popular-posts-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0/">Plugins hexo-related-popular-posts 설정하기 - MSFL::모리스 소프트웨어 공작소, IT Blog</a></li>
+24 silly fetchPackageMetaData <li><a href="https://yoshinorin.net/2016/11/03/hexo-blog-customize/">サイトをカスタマイズしました : タグクラウドプラグイン &amp; 関連記事表示プラグインの導入 &amp; 一部シェアボタン追加 - YoshinoriN's Memento</a></li>
+24 silly fetchPackageMetaData <li><a href="http://8hagi.sakura.ne.jp/sblog/2017/02/11/hexo-related-post/">HEXOをカスタマイズしました(関連記事プラグイン導入とか)&quot;&gt;HEXOをカスタマイズしました(関連記事プラグイン導入とか) - 可愛いを叫ぶブログ</a></li>
+24 silly fetchPackageMetaData <li><a href="https://azriton.github.io/2017/06/16/Hexo%E3%81%AB%E9%96%A2%E9%80%A3%E3%81%99%E3%82%8B%E8%A8%98%E4%BA%8B%E3%81%AE%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B/">Hexo に 関連する記事のリストを追加する - Azriton's blog</a></li>
+24 silly fetchPackageMetaData </ul>
+24 silly fetchPackageMetaData <h2>Thank you for a wonderful plugin.</h2>
+24 silly fetchPackageMetaData <ul>
+24 silly fetchPackageMetaData <li>Hexo : <a href="http://hexo.io/">http://hexo.io/</a></li>
+24 silly fetchPackageMetaData <li>ga-analytics : <a href="https://github.com/sfarthin/ga-analytics">https://github.com/sfarthin/ga-analytics</a></li>
+24 silly fetchPackageMetaData <li>kuromoji.js : <a href="https://github.com/takuyaa/kuromoji.js">https://github.com/takuyaa/kuromoji.js</a></li>
+24 silly fetchPackageMetaData </ul>
+24 silly fetchPackageMetaData <h2>License</h2>
+24 silly fetchPackageMetaData <p>MIT</p>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     </section>
+24 silly fetchPackageMetaData   </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData   <div class="pack-details cols-box col-6 col-push-1">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <div class="pack-maintainers cols-box-item">
+24 silly fetchPackageMetaData       <div class="cols-box-title">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         Maintainers  (1)
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData       <div class="maintainers">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData           <div class="maintainer">
+24 silly fetchPackageMetaData             <a class="username" href="/~tea3gt">
+24 silly fetchPackageMetaData               <img src="https://s.gravatar.com/avatar/df6c95ec1ee14d63468d8c3401e72c16?s=50&amp;d=retro" class="avatar">
+24 silly fetchPackageMetaData               tea3gt
+24 silly fetchPackageMetaData             </a>
+24 silly fetchPackageMetaData           </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <div class="pack-downloads cols-box-item">
+24 silly fetchPackageMetaData       <div class="cols-box-title">
+24 silly fetchPackageMetaData         Downloads
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData       <div class="downloads">
+24 silly fetchPackageMetaData         <div class="row">
+24 silly fetchPackageMetaData           Today
+24 silly fetchPackageMetaData           <span class="pack-download-num">0</span>
+24 silly fetchPackageMetaData           </div>
+24 silly fetchPackageMetaData       <div class="row">
+24 silly fetchPackageMetaData           This Week
+24 silly fetchPackageMetaData           <span class="pack-download-num">1</span>
+24 silly fetchPackageMetaData           </div>
+24 silly fetchPackageMetaData       <div class="row">
+24 silly fetchPackageMetaData           This Month
+24 silly fetchPackageMetaData           <span class="pack-download-num">1</span>
+24 silly fetchPackageMetaData           </div>
+24 silly fetchPackageMetaData       <div class="row">
+24 silly fetchPackageMetaData           Last Day
+24 silly fetchPackageMetaData           <span class="pack-download-num">1</span>
+24 silly fetchPackageMetaData           </div>
+24 silly fetchPackageMetaData       <div class="row">
+24 silly fetchPackageMetaData           Last Week
+24 silly fetchPackageMetaData           <span class="pack-download-num">19</span>
+24 silly fetchPackageMetaData           </div>
+24 silly fetchPackageMetaData       <div class="row">
+24 silly fetchPackageMetaData           Last Month
+24 silly fetchPackageMetaData           <span class="pack-download-num">41</span>
+24 silly fetchPackageMetaData         </div>
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData     <div class="pack-dep cols-box-item">
+24 silly fetchPackageMetaData       <div class="cols-box-title">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         Dependencies (10)
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <ul>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/columnify">columnify</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^1.5.4</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/ga-analytics">ga-analytics</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^0.0.7</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/hexo-fs">hexo-fs</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^0.2.2</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/mkdirp">mkdirp</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^0.5.1</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/moment">moment</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^2.19.1</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/object-assign">object-assign</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^4.1.1</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/kuromoji">kuromoji</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^0.1.1</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/bluebird">bluebird</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^3.5.1</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/hasha">hasha</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^3.0.0</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/log-util">log-util</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^1.2.0</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </ul>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData     <div class="pack-dep cols-box-item">
+24 silly fetchPackageMetaData       <div class="cols-box-title">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         Dev Dependencies (1)
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <ul>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         <li>
+24 silly fetchPackageMetaData           <a class="pack-dep-name" target="_blank" href="/package/hexo">hexo</a>
+24 silly fetchPackageMetaData            <span class="pack-dep-ver">^3.0.0-rc.3</span>
+24 silly fetchPackageMetaData         </li>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </ul>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <div class="pack-dep cols-box-item">
+24 silly fetchPackageMetaData       <div class="cols-box-title">
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         Dependents (0)
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData         None
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData   </div>
+24 silly fetchPackageMetaData </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData       <div class="bottom">
+24 silly fetchPackageMetaData         <hr/>
+24 silly fetchPackageMetaData         <p>
+24 silly fetchPackageMetaData           Copyright 2014 - 2016 &copy; taobao.org | <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5874717'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D5874717%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+24 silly fetchPackageMetaData         </p>
+24 silly fetchPackageMetaData       </div>
+24 silly fetchPackageMetaData     </div>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+24 silly fetchPackageMetaData     <script src="//dn-staticfile.qbox.me/respond.js/1.2.0/respond.min.js"></script>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <script src="//dn-staticfile.qbox.me/prettify/r298/prettify.min.js"></script>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     <!-- Specific to this page -->
+24 silly fetchPackageMetaData     <script>
+24 silly fetchPackageMetaData     $(function () {
+24 silly fetchPackageMetaData       $('pre code').parent().addClass('prettyprint');
+24 silly fetchPackageMetaData       prettyPrint();
+24 silly fetchPackageMetaData     });
+24 silly fetchPackageMetaData     </script>
+24 silly fetchPackageMetaData   </body>
+24 silly fetchPackageMetaData </html>
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     at Object.parse (native)
+24 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:23)
+24 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:216:7
+24 silly fetchPackageMetaData     at Gunzip.onEnd (zlib.js:227:5)
+24 silly fetchPackageMetaData     at emitNone (events.js:91:20)
+24 silly fetchPackageMetaData     at Gunzip.emit (events.js:185:7)
+24 silly fetchPackageMetaData     at endReadableNT (_stream_readable.js:974:12)
+24 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+24 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Finishing
+28 silly install printInstalled
+29 verbose stack SyntaxError: Unexpected token < in JSON at position 0
+29 verbose stack <!DOCTYPE html>
+29 verbose stack <html>
+29 verbose stack   <head>
+29 verbose stack     <meta charset="utf-8">
+29 verbose stack     <title>Package - hexo-related-popular-posts</title>
+29 verbose stack     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+29 verbose stack     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+29 verbose stack     <meta name="apple-mobile-web-app-capable" content="yes" />
+29 verbose stack     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+29 verbose stack     <link rel="shortcut icon" href="/favicon.png">
+29 verbose stack     <!-- Ant design -->
+29 verbose stack     <link href="/css/antd-0.9.1.min.css" rel="stylesheet" media="screen">
+29 verbose stack     <link href="/css/main.css" rel="stylesheet" media="screen">
+29 verbose stack     <link href="/css/yue.css" rel="stylesheet" media="screen">
+29 verbose stack     <link href="/css/github.css" rel="stylesheet" media="screen">
+29 verbose stack     <link href="/css/github-markdown.css" rel="stylesheet" media="screen">
+29 verbose stack     <!-- JavaScript plugins (requires jQuery) -->
+29 verbose stack     <script src="//dn-staticfile.qbox.me/jquery/2.0.3/jquery.min.js"></script>
+29 verbose stack     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CNPM" />
+29 verbose stack     <script>
+29 verbose stack       $(function () {
+29 verbose stack         $('#search-input').keypress(function (e) {
+29 verbose stack           if(e.keyCode !== 13) {
+29 verbose stack             return;
+29 verbose stack           }
+29 verbose stack           var val = $(this).val().trim();
+29 verbose stack           if (val) {
+29 verbose stack             return location.href = '/browse/keyword/' + val;
+29 verbose stack           }
+29 verbose stack         });
+29 verbose stack
+29 verbose stack         $(".nav-tabs li").each(function (index) {
+29 verbose stack           $(this).data("index", index);
+29 verbose stack         })
+29 verbose stack         .on("click", function (e) {
+29 verbose stack           e.preventDefault();
+29 verbose stack           $(".nav-tabs li.active,.nav-cont.active").removeClass("active");
+29 verbose stack           $(this).addClass("active");
+29 verbose stack           $(".nav-cont").eq($(this).data("index")).addClass("active");
+29 verbose stack         });
+29 verbose stack       });
+29 verbose stack     </script>
+29 verbose stack   </head>
+29 verbose stack   <body>
+29 verbose stack     <div class="container">
+29 verbose stack       <header id="header">
+29 verbose stack         <div class="logo">
+29 verbose stack           <a href="/"><img src="https://zos.alipayobjects.com/rmsportal/UQvFKvLLWPPmxTM.png"></a>
+29 verbose stack           <a class="ad-banner" target="_blank" href="https://render.alipay.com/p/s/taobaonpm_click/npmtaobao_click"><img src="https://render.alipay.com/p/s/taobaonpm_click/npmtaobao_banner" style="width: 300px"></a>
+29 verbose stack         </div>
+29 verbose stack         <input type="text" id="search-input" class="ant-input ant-input-lg" placeholder="Search Packages">
+29 verbose stack       </header>
+29 verbose stack
+29 verbose stack       <div class="yue">
+29 verbose stack          <div class="pack-overview-background"></div>
+29 verbose stack  <div class="pack-overview">
+29 verbose stack     <div class="pack-info">
+29 verbose stack
+29 verbose stack         <div class="pack-name">hexo-related-popular-posts</div>
+29 verbose stack
+29 verbose stack           <div class="pack-description" title="A hexo plugin that generates a list of links to related posts and popular posts. Also , this plugin can get Visitor Counts (PageView) on posts.">A hexo plugin that generates a list of links to related posts and popular posts. Also , this plugin can get Visitor Counts (PageView) on posts.</div>
+29 verbose stack
+29 verbose stack
+29 verbose stack       <div class="pack-ver">
+29 verbose stack         <img title="2.0.4" src="/badge/v/hexo-related-popular-posts.svg?style=flat-square">
+29 verbose stack
+29 verbose stack
+29 verbose stack         <a class="badge-link" href="https://snyk.io.cnpmjs.org/test/npm/hexo-related-popular-posts" target="_blank"><img title="Known Vulnerabilities" src="https://snyk.io.cnpmjs.org/test/npm/hexo-related-popular-posts/badge.svg?style=flat-square"></a>
+29 verbose stack
+29 verbose stack       </div>
+29 verbose stack       <div class="pack-repo">
+29 verbose stack
+29 verbose stack           <div class="pack-lastup">
+29 verbose stack             Last updated 9 days ago
+29 verbose stack
+29 verbose stack               by <a href="/~tea3gt">tea3gt</a>
+29 verbose stack
+29 verbose stack             .
+29 verbose stack             </div>
+29 verbose stack
+29 verbose stack
+29 verbose stack
+29 verbose stack           <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a>
+29 verbose stack
+29 verbose stack
+29 verbose stack
+29 verbose stack            &middot;
+29 verbose stack           <a href="https://github.com/tea3/hexo-related-popular-posts" target="_blank">Repository</a>
+29 verbose stack
+29 verbose stack
+29 verbose stack
+29 verbose stack            &middot;
+29 verbose stack           <a href="https://github.com/tea3/hexo-related-popular-posts/issues" target="_blank">Bugs</a>
+29 verbose stack
+29 verbose stack
+29 verbose stack          &middot;
+29 verbose stack
+29 verbose stack
+29 verbose stack         <a href="https://www.npmjs.org/package/hexo-related-popular-posts" target="_blank">Original npm</a>
+29 verbose stack
+29 verbose stack
+29 verbose stack
+29 verbose stack           &middot;
+29 verbose stack           <a href="http://registry.npm.taobao.org/hexo-related-popular-posts/download/hexo-related-popular-posts-2.0.4.tgz" target="_blank">Tarball</a>
+29 verbose stack
+29 verbose stack       </div>
+29 verbose stack       <div class="pack-install">
+29 verbose stack         <pre class="sh">$ cnpm install hexo-related-popular-posts </pre>
+29 verbose stack         <div class="pack-sync">
+29 verbose stack
+29 verbose stack             <a href="/sync/hexo-related-popular-posts" target="_blank">SYNC</a> missed versions from
+29 verbose stack               <a href="//registry.npm.taobao.org/hexo-related-popular-posts" target="_blank">official npm registry</a>.
+29 verbose stack
+29 verbose stack         </div>
+29 verbose stack       </div>
+29 verbose stack     </div>
+29 verbose stack   </div>
+29 verbose stack </div>
+29 verbose stack
+29 verbose stack <div class="row">
+29 verbose stack
+29 verbose stack
+29 verbose stack   <div class="pack-readme col-17">
+29 verbose stack     <section id="readme" class="markdown-body">
+29 verbose stack       <h1>hexo-related-popular-posts</h1>
+29 verbose stack <p>A hexo plugin that generates a list of links to related posts or popular posts.</p>
+29 verbose stack <p><a href="https://photo-tea.com/p/tea-plantation-mtfuji/#relatedPosts">DEMO</a> | <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings">Wiki</a> | <a href="https://photo-tea.com/p/hexo-related-popular-posts/">Documents</a></p>
+29 verbose stack <p><img src alt="Screenshot"></p>
+29 verbose stack <h2>Overview</h2>
+29 verbose stack <ul>
+29 verbose stack <li>
+29 verbose stack <p>Generate <a href="#simply-usage">related list of posts</a>.</p>
+29 verbose stack <p>Sort and extracted by <a href="#simply-usage">relevance of tags</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#advanced-related-posts-morphological-analysis">word relevance of contents</a>.</p>
+29 verbose stack </li>
+29 verbose stack <li>
+29 verbose stack <p>Generate <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#popular-posts">popular list of posts</a>.</p>
+29 verbose stack <p>Sort and extract in Google Analytics page view.</p>
+29 verbose stack </li>
+29 verbose stack <li>
+29 verbose stack <p>Generate <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#visitor-counter">Page Views information</a> in posts.</p>
+29 verbose stack <p>Gets and displays the Google Analytics page view.</p>
+29 verbose stack </li>
+29 verbose stack <li>
+29 verbose stack <p>Flexible customizable <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#hepler">option</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#customize-html">design</a></p>
+29 verbose stack </li>
+29 verbose stack <li>
+29 verbose stack <p><a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#cache">Improve production speed</a></p>
+29 verbose stack </li>
+29 verbose stack </ul>
+29 verbose stack <hr>
+29 verbose stack <h2>Installation</h2>
+29 verbose stack <pre><code class="language-bash">$ npm install hexo-related-popular-posts --save
+29 verbose stack </code></pre>
+29 verbose stack <p>If you occur <code>ERROR Plugin load failed:</code> error or <code>DTraceProviderBindings.node</code> error , please see below.</p>
+29 verbose stack <ul>
+29 verbose stack <li><a href="https://github.com/tea3/hexo-related-popular-posts/blob/master/.github/ISSUE_TEMPLATE.md">ISSUE_TEMPLATE</a></li>
+29 verbose stack <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/1">DTraceProviderBindings.node issue #1</a></li>
+29 verbose stack </ul>
+29 verbose stack <hr>
+29 verbose stack <h2>Simply Usage</h2>
+29 verbose stack <h3>1. Edit your theme</h3>
+29 verbose stack <p>First, add the following <code>popular_posts()</code> helper tag in template file for article. For example , if you use <a href="https://github.com/hexojs/hexo-theme-landscape">hexo-theme-landscape</a> , add a tag <a href="https://github.com/hexojs/hexo-theme-landscape/blob/master/layout/_partial/article.ejs#L25">here</a>.</p>
+29 verbose stack <pre><code class="language-ejs">  &lt;%-
+29 verbose stack     popular_posts()
+29 verbose stack   %&gt;
+29 verbose stack </code></pre>
+29 verbose stack <p>Helper tag can set <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#hepler">more option</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#customize-html">customize the design</a> . For detail , please see the wiki.</p>
+29 verbose stack <p>Also , if you occur <code>Cannot read property 'tags' of undefined</code> error , please refer to the follow as.</p>
+29 verbose stack <ul>
+29 verbose stack <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/4">Swig (e.g. hexo-theme-next)</a></li>
+29 verbose stack <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/6">Ejs (e.g. hexo-theme-phantom)</a></li>
+29 verbose stack </ul>
+29 verbose stack <h3>2. Add tags in markdown</h3>
+29 verbose stack <p>If tags are included in the article, related articles can be displayed as a list. For example, add a tag like the following markdown file.</p>
+29 verbose stack <pre><code>---
+29 verbose stack title: Hello World
+29 verbose stack tags:
+29 verbose stack   - program
+29 verbose stack   - diary
+29 verbose stack   - web
+29 verbose stack ---
+29 verbose stack Welcome to [Hexo](https://hexo.io/)! This is a sample article. Let's add some tags as above.
+29 verbose stack ...
+29 verbose stack </code></pre>
+29 verbose stack <p>The larger the number of matching tags, the more relevant articles are displayed as candidates. Otherside , <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#advanced-related-posts-morphological-analysis">advanced related posts</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#popular-posts">popular posts</a> can be displayed. Please see the wiki .</p>
+29 verbose stack <h3>3. Run server</h3>
+29 verbose stack <p>Starts a local server. By default, this is at <code>http://localhost:4000/</code>.</p>
+29 verbose stack <pre><code class="language-bash">$ hexo clean
+29 verbose stack $ hexo server
+29 verbose stack </code></pre>
+29 verbose stack <hr>
+29 verbose stack <h2>Thank you for introduction.</h2>
+29 verbose stack <ul>
+29 verbose stack <li><a href="http://ccambo.gitlab.io/2017/04/19/Plugins-hexo-related-popular-posts-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0/">Plugins hexo-related-popular-posts 설정하기 - MSFL::모리스 소프트웨어 공작소, IT Blog</a></li>
+29 verbose stack <li><a href="https://yoshinorin.net/2016/11/03/hexo-blog-customize/">サイトをカスタマイズしました : タグクラウドプラグイン &amp; 関連記事表示プラグインの導入 &amp; 一部シェアボタン追加 - YoshinoriN's Memento</a></li>
+29 verbose stack <li><a href="http://8hagi.sakura.ne.jp/sblog/2017/02/11/hexo-related-post/">HEXOをカスタマイズしました(関連記事プラグイン導入とか)&quot;&gt;HEXOをカスタマイズしました(関連記事プラグイン導入とか) - 可愛いを叫ぶブログ</a></li>
+29 verbose stack <li><a href="https://azriton.github.io/2017/06/16/Hexo%E3%81%AB%E9%96%A2%E9%80%A3%E3%81%99%E3%82%8B%E8%A8%98%E4%BA%8B%E3%81%AE%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B/">Hexo に 関連する記事のリストを追加する - Azriton's blog</a></li>
+29 verbose stack </ul>
+29 verbose stack <h2>Thank you for a wonderful plugin.</h2>
+29 verbose stack <ul>
+29 verbose stack <li>Hexo : <a href="http://hexo.io/">http://hexo.io/</a></li>
+29 verbose stack <li>ga-analytics : <a href="https://github.com/sfarthin/ga-analytics">https://github.com/sfarthin/ga-analytics</a></li>
+29 verbose stack <li>kuromoji.js : <a href="https://github.com/takuyaa/kuromoji.js">https://github.com/takuyaa/kuromoji.js</a></li>
+29 verbose stack </ul>
+29 verbose stack <h2>License</h2>
+29 verbose stack <p>MIT</p>
+29 verbose stack
+29 verbose stack     </section>
+29 verbose stack   </div>
+29 verbose stack
+29 verbose stack   <div class="pack-details cols-box col-6 col-push-1">
+29 verbose stack
+29 verbose stack     <div class="pack-maintainers cols-box-item">
+29 verbose stack       <div class="cols-box-title">
+29 verbose stack
+29 verbose stack         Maintainers  (1)
+29 verbose stack       </div>
+29 verbose stack       <div class="maintainers">
+29 verbose stack
+29 verbose stack           <div class="maintainer">
+29 verbose stack             <a class="username" href="/~tea3gt">
+29 verbose stack               <img src="https://s.gravatar.com/avatar/df6c95ec1ee14d63468d8c3401e72c16?s=50&amp;d=retro" class="avatar">
+29 verbose stack               tea3gt
+29 verbose stack             </a>
+29 verbose stack           </div>
+29 verbose stack
+29 verbose stack       </div>
+29 verbose stack     </div>
+29 verbose stack
+29 verbose stack     <div class="pack-downloads cols-box-item">
+29 verbose stack       <div class="cols-box-title">
+29 verbose stack         Downloads
+29 verbose stack       </div>
+29 verbose stack       <div class="downloads">
+29 verbose stack         <div class="row">
+29 verbose stack           Today
+29 verbose stack           <span class="pack-download-num">0</span>
+29 verbose stack           </div>
+29 verbose stack       <div class="row">
+29 verbose stack           This Week
+29 verbose stack           <span class="pack-download-num">1</span>
+29 verbose stack           </div>
+29 verbose stack       <div class="row">
+29 verbose stack           This Month
+29 verbose stack           <span class="pack-download-num">1</span>
+29 verbose stack           </div>
+29 verbose stack       <div class="row">
+29 verbose stack           Last Day
+29 verbose stack           <span class="pack-download-num">1</span>
+29 verbose stack           </div>
+29 verbose stack       <div class="row">
+29 verbose stack           Last Week
+29 verbose stack           <span class="pack-download-num">19</span>
+29 verbose stack           </div>
+29 verbose stack       <div class="row">
+29 verbose stack           Last Month
+29 verbose stack           <span class="pack-download-num">41</span>
+29 verbose stack         </div>
+29 verbose stack       </div>
+29 verbose stack     </div>
+29 verbose stack     <div class="pack-dep cols-box-item">
+29 verbose stack       <div class="cols-box-title">
+29 verbose stack
+29 verbose stack         Dependencies (10)
+29 verbose stack
+29 verbose stack       </div>
+29 verbose stack
+29 verbose stack         <ul>
+29 verbose stack
+29 verbose stack         <li>
+29 verbose stack           <a class="pack-dep-name" target="_blank" href="/package/columnify">columnify</a>
+29 verbose stack            <span class="pack-dep-ver">^1.5.4</span>
+29 verbose stack         </li>
+29 verbose stack
+29 verbose stack         <li>
+29 verbose stack           <a class="pack-dep-name" target="_blank" href="/package/ga-analytics">ga-analytics</a>
+29 verbose stack            <span class="pack-dep-ver">^0.0.7</span>
+29 verbose stack         </li>
+29 verbose stack
+29 verbose stack         <li>
+29 verbose stack           <a class="pack-dep-name" target="_blank" href="/package/hexo-fs">hexo-fs</a>
+29 verbose stack            <span class="pack-dep-ver">^0.2.2</span>
+29 verbose stack         </li>
+29 verbose stack
+29 verbose stack         <li>
+29 verbose stack           <a class="pack-dep-name" target="_blank" href="/package/mkdirp">mkdirp</a>
+29 verbose stack            <span class="pack-dep-ver">^0.5.1</span>
+29 verbose stack         </li>
+29 verbose stack
+29 verbose stack         <li>
+29 verbose stack           <a class="pack-dep-name" target="_blank" href="/package/moment">moment</a>
+29 verbose stack            <span class="pack-dep-ver">^2.19.1</span>
+29 verbose stack         </li>
+29 verbose stack
+29 verbose stack         <li>
+29 verbose stack           <a class="pack-dep-name" target="_blank" href="/package/object-assign">object-assign</a>
+29 verbose stack            <span class="pack-dep-ver">^4.1.1</span>
+29 verbose stack         </li>
+29 verbose stack
+29 verbose stack         <li>
+29 verbose stack           <a class="pack-dep-name" target="_blank" href="/package/kuromoji">kuromoji</a>
+29 verbose stack            <span class="pack-dep-ver">^0.1.1</span>
+29 verbose stack         </li>
+29 verbose stack
+29 verbose stack         <li>
+29 verbose stack           <a class="pack-dep-name" target="_blank" href="/package/bluebird">bluebird</a>
+29 verbose stack            <span class="pack-dep-ver">^3.5.1</span>
+29 verbose stack         </li>
+29 verbose stack
+29 verbose stack         <li>
+29 verbose stack           <a class="pack-dep-name" target="_blank" href="/package/hasha">hasha</a>
+29 verbose stack            <span class="pack-dep-ver">^3.0.0</span>
+29 verbose stack         </li>
+29 verbose stack
+29 verbose stack         <li>
+29 verbose stack           <a class="pack-dep-name" target="_blank" href="/package/log-util">log-util</a>
+29 verbose stack            <span class="pack-dep-ver">^1.2.0</span>
+29 verbose stack         </li>
+29 verbose stack
+29 verbose stack       </ul>
+29 verbose stack
+29 verbose stack     </div>
+29 verbose stack     <div class="pack-dep cols-box-item">
+29 verbose stack       <div class="cols-box-title">
+29 verbose stack
+29 verbose stack         Dev Dependencies (1)
+29 verbose stack
+29 verbose stack       </div>
+29 verbose stack
+29 verbose stack         <ul>
+29 verbose stack
+29 verbose stack         <li>
+29 verbose stack           <a class="pack-dep-name" target="_blank" href="/package/hexo">hexo</a>
+29 verbose stack            <span class="pack-dep-ver">^3.0.0-rc.3</span>
+29 verbose stack         </li>
+29 verbose stack
+29 verbose stack       </ul>
+29 verbose stack
+29 verbose stack     </div>
+29 verbose stack
+29 verbose stack     <div class="pack-dep cols-box-item">
+29 verbose stack       <div class="cols-box-title">
+29 verbose stack
+29 verbose stack         Dependents (0)
+29 verbose stack
+29 verbose stack       </div>
+29 verbose stack
+29 verbose stack         None
+29 verbose stack
+29 verbose stack     </div>
+29 verbose stack
+29 verbose stack   </div>
+29 verbose stack </div>
+29 verbose stack
+29 verbose stack       </div>
+29 verbose stack       <div class="bottom">
+29 verbose stack         <hr/>
+29 verbose stack         <p>
+29 verbose stack           Copyright 2014 - 2016 &copy; taobao.org | <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5874717'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D5874717%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+29 verbose stack         </p>
+29 verbose stack       </div>
+29 verbose stack     </div>
+29 verbose stack
+29 verbose stack     <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+29 verbose stack     <script src="//dn-staticfile.qbox.me/respond.js/1.2.0/respond.min.js"></script>
+29 verbose stack
+29 verbose stack     <script src="//dn-staticfile.qbox.me/prettify/r298/prettify.min.js"></script>
+29 verbose stack
+29 verbose stack     <!-- Specific to this page -->
+29 verbose stack     <script>
+29 verbose stack     $(function () {
+29 verbose stack       $('pre code').parent().addClass('prettyprint');
+29 verbose stack       prettyPrint();
+29 verbose stack     });
+29 verbose stack     </script>
+29 verbose stack   </body>
+29 verbose stack </html>
+29 verbose stack
+29 verbose stack     at Object.parse (native)
+29 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:23)
+29 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:216:7
+29 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+29 verbose stack     at emitNone (events.js:91:20)
+29 verbose stack     at Gunzip.emit (events.js:185:7)
+29 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+29 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+29 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+30 verbose cwd /Users/fang/workspace/zhaof/fang.github.io/themes/bamboostrip
+31 error Darwin 15.6.0
+32 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "hexo-related-popular-posts" "--save" "--registry=https://npm.taobao.org"
+33 error node v6.11.4
+34 error npm  v3.10.10
+35 error Unexpected token < in JSON at position 0
+35 error <!DOCTYPE html>
+35 error <html>
+35 error   <head>
+35 error     <meta charset="utf-8">
+35 error     <title>Package - hexo-related-popular-posts</title>
+35 error     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+35 error     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+35 error     <meta name="apple-mobile-web-app-capable" content="yes" />
+35 error     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+35 error     <link rel="shortcut icon" href="/favicon.png">
+35 error     <!-- Ant design -->
+35 error     <link href="/css/antd-0.9.1.min.css" rel="stylesheet" media="screen">
+35 error     <link href="/css/main.css" rel="stylesheet" media="screen">
+35 error     <link href="/css/yue.css" rel="stylesheet" media="screen">
+35 error     <link href="/css/github.css" rel="stylesheet" media="screen">
+35 error     <link href="/css/github-markdown.css" rel="stylesheet" media="screen">
+35 error     <!-- JavaScript plugins (requires jQuery) -->
+35 error     <script src="//dn-staticfile.qbox.me/jquery/2.0.3/jquery.min.js"></script>
+35 error     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CNPM" />
+35 error     <script>
+35 error       $(function () {
+35 error         $('#search-input').keypress(function (e) {
+35 error           if(e.keyCode !== 13) {
+35 error             return;
+35 error           }
+35 error           var val = $(this).val().trim();
+35 error           if (val) {
+35 error             return location.href = '/browse/keyword/' + val;
+35 error           }
+35 error         });
+35 error
+35 error         $(".nav-tabs li").each(function (index) {
+35 error           $(this).data("index", index);
+35 error         })
+35 error         .on("click", function (e) {
+35 error           e.preventDefault();
+35 error           $(".nav-tabs li.active,.nav-cont.active").removeClass("active");
+35 error           $(this).addClass("active");
+35 error           $(".nav-cont").eq($(this).data("index")).addClass("active");
+35 error         });
+35 error       });
+35 error     </script>
+35 error   </head>
+35 error   <body>
+35 error     <div class="container">
+35 error       <header id="header">
+35 error         <div class="logo">
+35 error           <a href="/"><img src="https://zos.alipayobjects.com/rmsportal/UQvFKvLLWPPmxTM.png"></a>
+35 error           <a class="ad-banner" target="_blank" href="https://render.alipay.com/p/s/taobaonpm_click/npmtaobao_click"><img src="https://render.alipay.com/p/s/taobaonpm_click/npmtaobao_banner" style="width: 300px"></a>
+35 error         </div>
+35 error         <input type="text" id="search-input" class="ant-input ant-input-lg" placeholder="Search Packages">
+35 error       </header>
+35 error
+35 error       <div class="yue">
+35 error          <div class="pack-overview-background"></div>
+35 error  <div class="pack-overview">
+35 error     <div class="pack-info">
+35 error
+35 error         <div class="pack-name">hexo-related-popular-posts</div>
+35 error
+35 error           <div class="pack-description" title="A hexo plugin that generates a list of links to related posts and popular posts. Also , this plugin can get Visitor Counts (PageView) on posts.">A hexo plugin that generates a list of links to related posts and popular posts. Also , this plugin can get Visitor Counts (PageView) on posts.</div>
+35 error
+35 error
+35 error       <div class="pack-ver">
+35 error         <img title="2.0.4" src="/badge/v/hexo-related-popular-posts.svg?style=flat-square">
+35 error
+35 error
+35 error         <a class="badge-link" href="https://snyk.io.cnpmjs.org/test/npm/hexo-related-popular-posts" target="_blank"><img title="Known Vulnerabilities" src="https://snyk.io.cnpmjs.org/test/npm/hexo-related-popular-posts/badge.svg?style=flat-square"></a>
+35 error
+35 error       </div>
+35 error       <div class="pack-repo">
+35 error
+35 error           <div class="pack-lastup">
+35 error             Last updated 9 days ago
+35 error
+35 error               by <a href="/~tea3gt">tea3gt</a>
+35 error
+35 error             .
+35 error             </div>
+35 error
+35 error
+35 error
+35 error           <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a>
+35 error
+35 error
+35 error
+35 error            &middot;
+35 error           <a href="https://github.com/tea3/hexo-related-popular-posts" target="_blank">Repository</a>
+35 error
+35 error
+35 error
+35 error            &middot;
+35 error           <a href="https://github.com/tea3/hexo-related-popular-posts/issues" target="_blank">Bugs</a>
+35 error
+35 error
+35 error          &middot;
+35 error
+35 error
+35 error         <a href="https://www.npmjs.org/package/hexo-related-popular-posts" target="_blank">Original npm</a>
+35 error
+35 error
+35 error
+35 error           &middot;
+35 error           <a href="http://registry.npm.taobao.org/hexo-related-popular-posts/download/hexo-related-popular-posts-2.0.4.tgz" target="_blank">Tarball</a>
+35 error
+35 error       </div>
+35 error       <div class="pack-install">
+35 error         <pre class="sh">$ cnpm install hexo-related-popular-posts </pre>
+35 error         <div class="pack-sync">
+35 error
+35 error             <a href="/sync/hexo-related-popular-posts" target="_blank">SYNC</a> missed versions from
+35 error               <a href="//registry.npm.taobao.org/hexo-related-popular-posts" target="_blank">official npm registry</a>.
+35 error
+35 error         </div>
+35 error       </div>
+35 error     </div>
+35 error   </div>
+35 error </div>
+35 error
+35 error <div class="row">
+35 error
+35 error
+35 error   <div class="pack-readme col-17">
+35 error     <section id="readme" class="markdown-body">
+35 error       <h1>hexo-related-popular-posts</h1>
+35 error <p>A hexo plugin that generates a list of links to related posts or popular posts.</p>
+35 error <p><a href="https://photo-tea.com/p/tea-plantation-mtfuji/#relatedPosts">DEMO</a> | <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings">Wiki</a> | <a href="https://photo-tea.com/p/hexo-related-popular-posts/">Documents</a></p>
+35 error <p><img src alt="Screenshot"></p>
+35 error <h2>Overview</h2>
+35 error <ul>
+35 error <li>
+35 error <p>Generate <a href="#simply-usage">related list of posts</a>.</p>
+35 error <p>Sort and extracted by <a href="#simply-usage">relevance of tags</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#advanced-related-posts-morphological-analysis">word relevance of contents</a>.</p>
+35 error </li>
+35 error <li>
+35 error <p>Generate <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#popular-posts">popular list of posts</a>.</p>
+35 error <p>Sort and extract in Google Analytics page view.</p>
+35 error </li>
+35 error <li>
+35 error <p>Generate <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#visitor-counter">Page Views information</a> in posts.</p>
+35 error <p>Gets and displays the Google Analytics page view.</p>
+35 error </li>
+35 error <li>
+35 error <p>Flexible customizable <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#hepler">option</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#customize-html">design</a></p>
+35 error </li>
+35 error <li>
+35 error <p><a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#cache">Improve production speed</a></p>
+35 error </li>
+35 error </ul>
+35 error <hr>
+35 error <h2>Installation</h2>
+35 error <pre><code class="language-bash">$ npm install hexo-related-popular-posts --save
+35 error </code></pre>
+35 error <p>If you occur <code>ERROR Plugin load failed:</code> error or <code>DTraceProviderBindings.node</code> error , please see below.</p>
+35 error <ul>
+35 error <li><a href="https://github.com/tea3/hexo-related-popular-posts/blob/master/.github/ISSUE_TEMPLATE.md">ISSUE_TEMPLATE</a></li>
+35 error <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/1">DTraceProviderBindings.node issue #1</a></li>
+35 error </ul>
+35 error <hr>
+35 error <h2>Simply Usage</h2>
+35 error <h3>1. Edit your theme</h3>
+35 error <p>First, add the following <code>popular_posts()</code> helper tag in template file for article. For example , if you use <a href="https://github.com/hexojs/hexo-theme-landscape">hexo-theme-landscape</a> , add a tag <a href="https://github.com/hexojs/hexo-theme-landscape/blob/master/layout/_partial/article.ejs#L25">here</a>.</p>
+35 error <pre><code class="language-ejs">  &lt;%-
+35 error     popular_posts()
+35 error   %&gt;
+35 error </code></pre>
+35 error <p>Helper tag can set <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#hepler">more option</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#customize-html">customize the design</a> . For detail , please see the wiki.</p>
+35 error <p>Also , if you occur <code>Cannot read property 'tags' of undefined</code> error , please refer to the follow as.</p>
+35 error <ul>
+35 error <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/4">Swig (e.g. hexo-theme-next)</a></li>
+35 error <li><a href="https://github.com/tea3/hexo-related-popular-posts/issues/6">Ejs (e.g. hexo-theme-phantom)</a></li>
+35 error </ul>
+35 error <h3>2. Add tags in markdown</h3>
+35 error <p>If tags are included in the article, related articles can be displayed as a list. For example, add a tag like the following markdown file.</p>
+35 error <pre><code>---
+35 error title: Hello World
+35 error tags:
+35 error   - program
+35 error   - diary
+35 error   - web
+35 error ---
+35 error Welcome to [Hexo](https://hexo.io/)! This is a sample article. Let's add some tags as above.
+35 error ...
+35 error </code></pre>
+35 error <p>The larger the number of matching tags, the more relevant articles are displayed as candidates. Otherside , <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#advanced-related-posts-morphological-analysis">advanced related posts</a> and <a href="https://github.com/tea3/hexo-related-popular-posts/wiki/More-Settings#popular-posts">popular posts</a> can be displayed. Please see the wiki .</p>
+35 error <h3>3. Run server</h3>
+35 error <p>Starts a local server. By default, this is at <code>http://localhost:4000/</code>.</p>
+35 error <pre><code class="language-bash">$ hexo clean
+35 error $ hexo server
+35 error </code></pre>
+35 error <hr>
+35 error <h2>Thank you for introduction.</h2>
+35 error <ul>
+35 error <li><a href="http://ccambo.gitlab.io/2017/04/19/Plugins-hexo-related-popular-posts-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0/">Plugins hexo-related-popular-posts 설정하기 - MSFL::모리스 소프트웨어 공작소, IT Blog</a></li>
+35 error <li><a href="https://yoshinorin.net/2016/11/03/hexo-blog-customize/">サイトをカスタマイズしました : タグクラウドプラグイン &amp; 関連記事表示プラグインの導入 &amp; 一部シェアボタン追加 - YoshinoriN's Memento</a></li>
+35 error <li><a href="http://8hagi.sakura.ne.jp/sblog/2017/02/11/hexo-related-post/">HEXOをカスタマイズしました(関連記事プラグイン導入とか)&quot;&gt;HEXOをカスタマイズしました(関連記事プラグイン導入とか) - 可愛いを叫ぶブログ</a></li>
+35 error <li><a href="https://azriton.github.io/2017/06/16/Hexo%E3%81%AB%E9%96%A2%E9%80%A3%E3%81%99%E3%82%8B%E8%A8%98%E4%BA%8B%E3%81%AE%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B/">Hexo に 関連する記事のリストを追加する - Azriton's blog</a></li>
+35 error </ul>
+35 error <h2>Thank you for a wonderful plugin.</h2>
+35 error <ul>
+35 error <li>Hexo : <a href="http://hexo.io/">http://hexo.io/</a></li>
+35 error <li>ga-analytics : <a href="https://github.com/sfarthin/ga-analytics">https://github.com/sfarthin/ga-analytics</a></li>
+35 error <li>kuromoji.js : <a href="https://github.com/takuyaa/kuromoji.js">https://github.com/takuyaa/kuromoji.js</a></li>
+35 error </ul>
+35 error <h2>License</h2>
+35 error <p>MIT</p>
+35 error
+35 error     </section>
+35 error   </div>
+35 error
+35 error   <div class="pack-details cols-box col-6 col-push-1">
+35 error
+35 error     <div class="pack-maintainers cols-box-item">
+35 error       <div class="cols-box-title">
+35 error
+35 error         Maintainers  (1)
+35 error       </div>
+35 error       <div class="maintainers">
+35 error
+35 error           <div class="maintainer">
+35 error             <a class="username" href="/~tea3gt">
+35 error               <img src="https://s.gravatar.com/avatar/df6c95ec1ee14d63468d8c3401e72c16?s=50&amp;d=retro" class="avatar">
+35 error               tea3gt
+35 error             </a>
+35 error           </div>
+35 error
+35 error       </div>
+35 error     </div>
+35 error
+35 error     <div class="pack-downloads cols-box-item">
+35 error       <div class="cols-box-title">
+35 error         Downloads
+35 error       </div>
+35 error       <div class="downloads">
+35 error         <div class="row">
+35 error           Today
+35 error           <span class="pack-download-num">0</span>
+35 error           </div>
+35 error       <div class="row">
+35 error           This Week
+35 error           <span class="pack-download-num">1</span>
+35 error           </div>
+35 error       <div class="row">
+35 error           This Month
+35 error           <span class="pack-download-num">1</span>
+35 error           </div>
+35 error       <div class="row">
+35 error           Last Day
+35 error           <span class="pack-download-num">1</span>
+35 error           </div>
+35 error       <div class="row">
+35 error           Last Week
+35 error           <span class="pack-download-num">19</span>
+35 error           </div>
+35 error       <div class="row">
+35 error           Last Month
+35 error           <span class="pack-download-num">41</span>
+35 error         </div>
+35 error       </div>
+35 error     </div>
+35 error     <div class="pack-dep cols-box-item">
+35 error       <div class="cols-box-title">
+35 error
+35 error         Dependencies (10)
+35 error
+35 error       </div>
+35 error
+35 error         <ul>
+35 error
+35 error         <li>
+35 error           <a class="pack-dep-name" target="_blank" href="/package/columnify">columnify</a>
+35 error            <span class="pack-dep-ver">^1.5.4</span>
+35 error         </li>
+35 error
+35 error         <li>
+35 error           <a class="pack-dep-name" target="_blank" href="/package/ga-analytics">ga-analytics</a>
+35 error            <span class="pack-dep-ver">^0.0.7</span>
+35 error         </li>
+35 error
+35 error         <li>
+35 error           <a class="pack-dep-name" target="_blank" href="/package/hexo-fs">hexo-fs</a>
+35 error            <span class="pack-dep-ver">^0.2.2</span>
+35 error         </li>
+35 error
+35 error         <li>
+35 error           <a class="pack-dep-name" target="_blank" href="/package/mkdirp">mkdirp</a>
+35 error            <span class="pack-dep-ver">^0.5.1</span>
+35 error         </li>
+35 error
+35 error         <li>
+35 error           <a class="pack-dep-name" target="_blank" href="/package/moment">moment</a>
+35 error            <span class="pack-dep-ver">^2.19.1</span>
+35 error         </li>
+35 error
+35 error         <li>
+35 error           <a class="pack-dep-name" target="_blank" href="/package/object-assign">object-assign</a>
+35 error            <span class="pack-dep-ver">^4.1.1</span>
+35 error         </li>
+35 error
+35 error         <li>
+35 error           <a class="pack-dep-name" target="_blank" href="/package/kuromoji">kuromoji</a>
+35 error            <span class="pack-dep-ver">^0.1.1</span>
+35 error         </li>
+35 error
+35 error         <li>
+35 error           <a class="pack-dep-name" target="_blank" href="/package/bluebird">bluebird</a>
+35 error            <span class="pack-dep-ver">^3.5.1</span>
+35 error         </li>
+35 error
+35 error         <li>
+35 error           <a class="pack-dep-name" target="_blank" href="/package/hasha">hasha</a>
+35 error            <span class="pack-dep-ver">^3.0.0</span>
+35 error         </li>
+35 error
+35 error         <li>
+35 error           <a class="pack-dep-name" target="_blank" href="/package/log-util">log-util</a>
+35 error            <span class="pack-dep-ver">^1.2.0</span>
+35 error         </li>
+35 error
+35 error       </ul>
+35 error
+35 error     </div>
+35 error     <div class="pack-dep cols-box-item">
+35 error       <div class="cols-box-title">
+35 error
+35 error         Dev Dependencies (1)
+35 error
+35 error       </div>
+35 error
+35 error         <ul>
+35 error
+35 error         <li>
+35 error           <a class="pack-dep-name" target="_blank" href="/package/hexo">hexo</a>
+35 error            <span class="pack-dep-ver">^3.0.0-rc.3</span>
+35 error         </li>
+35 error
+35 error       </ul>
+35 error
+35 error     </div>
+35 error
+35 error     <div class="pack-dep cols-box-item">
+35 error       <div class="cols-box-title">
+35 error
+35 error         Dependents (0)
+35 error
+35 error       </div>
+35 error
+35 error         None
+35 error
+35 error     </div>
+35 error
+35 error   </div>
+35 error </div>
+35 error
+35 error       </div>
+35 error       <div class="bottom">
+35 error         <hr/>
+35 error         <p>
+35 error           Copyright 2014 - 2016 &copy; taobao.org | <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5874717'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D5874717%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+35 error         </p>
+35 error       </div>
+35 error     </div>
+35 error
+35 error     <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+35 error     <script src="//dn-staticfile.qbox.me/respond.js/1.2.0/respond.min.js"></script>
+35 error
+35 error     <script src="//dn-staticfile.qbox.me/prettify/r298/prettify.min.js"></script>
+35 error
+35 error     <!-- Specific to this page -->
+35 error     <script>
+35 error     $(function () {
+35 error       $('pre code').parent().addClass('prettyprint');
+35 error       prettyPrint();
+35 error     });
+35 error     </script>
+35 error   </body>
+35 error </html>
+36 error If you need help, you may report this error at:
+36 error     <https://github.com/npm/npm/issues>
+37 verbose exit [ 1, true ]

@@ -1,0 +1,25 @@
+<%-partial('_widget/head')%>
+<body class="<%= is_home() ? 'te-body-home' : 'te-body-default'%>">
+<div class="te-wrap" id="teWrap">
+  <div class="te-left">
+    <div id="menu-outer">
+      <div id="menu-inner">
+        <% Object.keys(theme.menu).forEach(function(key) { %>
+          <div class="te-menu-item"><a href="<%=theme.menu[key]%>"><span><%=key%></span></a></div>
+        <% }); %>
+      </div>
+    </div>
+  </div>
+  <div class="te-right">
+    <div id="content-outer">
+      <div id="content-inner">
+        <%- body %>
+      </div>
+    </div>
+    <%-partial('_widget/foot')%>
+</div>
+</div>
+
+<%-partial('_widget/foot')%>
+</body>
+</html>

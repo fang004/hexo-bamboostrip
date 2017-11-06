@@ -1,0 +1,18 @@
+
+# html lang
+language: 
+
+# main menu navigation
+menu:
+  赵芳: /
+  所有文章: /archives
+  Github: https://github.com/fang004
+
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/styles.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/scripts.js

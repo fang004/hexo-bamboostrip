@@ -1,0 +1,8 @@
+<% 
+  var links = config.links 
+%>
+<div>
+  <% for (var key in links){ %>
+       <a href="<%- url_for(links[key]) %>"><%= key %></a>
+   <% } %>
+</div>
